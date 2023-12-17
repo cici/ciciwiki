@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GeekDocs</title>
+    <link>http://example.org/index.html</link>
+    <description>Recent content on GeekDocs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech Stuff</title>
+      <link>http://example.org/tech/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/index.html</guid>
+      <description>This is the tech home page</description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>http://example.org/music/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/music/index.html</guid>
+      <description>Music is such an important part of my life. This is the home of my music resources and collections.
+Playlists Spotify YouTube SoundCloud
+Spotify stats
+And I share a lot of playlists and music artists I love.
+You can also see my most listened to artists, songs and albums alongside my yearly music stats tracked with last.fm.
+Music Theory is great read.
+Music Software &amp;amp; Sites SpotiFile - Spotify scraper. Command driven Spotify player in Rust stats.</description>
+    </item>
+    <item>
+      <title>Podcasts</title>
+      <link>http://example.org/podcasts/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/podcasts/index.html</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>http://example.org/travel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/travel/index.html</guid>
+      <description>Roam Around is neat way to get quick travel plans.
+Notes Visiting subreddits of cities/countries you are going to as well as the respective AskA.. communities is great way to know about a place. AskARussian is one such subreddit, it links to more similar subreddits in the sidebar. You can use the minus syntax to exclude results in Google Maps. Freedom is the new flex. International travel &amp;gt; Car. One suitcase &amp;gt; Wardrobe.</description>
+    </item>
+    <item>
+      <title>Geocaching</title>
+      <link>http://example.org/geocaching/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/geocaching/index.html</guid>
+      <description>Basic Resources &amp;amp; Tools Geocaching Main Site Want to Find </description>
+    </item>
+    <item>
+      <title>House</title>
+      <link>http://example.org/house/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/house/index.html</guid>
+      <description>This is the House section!</description>
+    </item>
+    <item>
+      <title>Fitness</title>
+      <link>http://example.org/fitness/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/fitness/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>StuffToWatch</title>
+      <link>http://example.org/stufftowatch/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/stufftowatch/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

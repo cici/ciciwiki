@@ -1,0 +1,5 @@
+# Visited
+
+[London]
+
+[Paris]

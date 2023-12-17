@@ -1,0 +1,36 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'GeekDocs'
+#theme = "hugo-geekdoc"
+theme = "relearn"
+landingPageName = "<i class='fas fa-home'></i> Home"
+relativeURLs = true
+#sectionPagesMenu = "main"
+pluralizeListTitles = false
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "SEARCH"]
+
+[module]
+[[module.imports]]
+    path = 'github.com/McShelby/hugo-theme-relearn'
+
+[params]
+  author = "Ci-Ci Thomson"
+  description = "My Collection of info and resources"
+  showVisitedLinks = false
+  disableLandingPageButton = false
+
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "ds"
+url = "https://github.com/McShelby/hugo-theme-relearn"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20

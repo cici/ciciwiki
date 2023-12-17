@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech Stuff on GeekDocs</title>
+    <link>http://example.org/tech/index.html</link>
+    <description>Recent content in Tech Stuff on GeekDocs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1Password</title>
+      <link>http://example.org/tech/macos/apps/1password/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/1password/index.html</guid>
+      <description>1Password Generate all of my passwords with it and keep everything in a secured and encrypted vault kept secure by my one master password.
+No longer need to remember passwords and I now have a unique password for every website that I am signed up on whilst activating two factor authentication wherever possible.
+Links 1Password for Open Source Projects - Get a free 1Password Teams membership for your open source project.</description>
+    </item>
+    <item>
+      <title>2Do</title>
+      <link>http://example.org/tech/macos/apps/2do/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/2do/index.html</guid>
+      <description>2Do I love GTD methodology. This app is phenomenal with helping me organize my tasks.
+It&amp;rsquo;s my preferred and main app for todos until I build my own app for this.
+Here is how my sidebar looks:
+It also has global quick add with a hotkey. Together with lists, priorities, powerful search and a lot more.
+I use 2Do only for personal tasks. Team &amp;amp; project tasks are done on GitHub.</description>
+    </item>
+    <item>
+      <title>Affinity Designer</title>
+      <link>http://example.org/tech/macos/apps/affinity-designer/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/affinity-designer/index.html</guid>
+      <description>Affinity Designer Links Affinity Designer Video Tutorials Affinity Designer: A Love Story (HN) </description>
+    </item>
+    <item>
+      <title>Alfred</title>
+      <link>http://example.org/tech/macos/apps/alfred/alfred/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/alfred/alfred/index.html</guid>
+      <description>Alfred Alfred is a powerful launcher that you can program to show anything you want. It saved me a lot of time as I use it to search through anything instantly.
+It has a great community and amazing workflows that you can use.
+I wrote an article on how anyone can start developing workflows of their own using Go language and AwGo library.
+Raycast &amp;amp; Script Kit are nice alternatives.</description>
+    </item>
+    <item>
+      <title>AppleScript</title>
+      <link>http://example.org/tech/macos/applescript/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/applescript/index.html</guid>
+      <description>AppleScript Notes You can drop an application on Apple&amp;rsquo;s Script Editor.app to find out if it is scriptable. Code -- Scrape all URLs from all tabs in all windows -- https://forum.keyboardmaestro.com/t/save-and-restore-safari-session-tabs/15036/4 set AppleScript&amp;#39;s text item delimiters to linefeed tell application &amp;#34;Safari&amp;#34; set urlList to (URL of tabs of windows) as text end tell return urlList -- Expand Typinator abbreviation tell application &amp;#34;Typinator&amp;#34; expand string &amp;#34;dd&amp;#34; end tell -- Print URL of current tab tell app &amp;#34;safari&amp;#34; to url of document 1 -- Show source of current document tell app &amp;#34;safari&amp;#34; to source of document 1 -- Activate menu bar of an app -- Accepts a list of form: `{&amp;#34;Finder&amp;#34;, &amp;#34;View&amp;#34;, &amp;#34;Arrange By&amp;#34;, &amp;#34;Date&amp;#34;}` -- Execute the specified menu item.</description>
+    </item>
+    <item>
+      <title>AwGo</title>
+      <link>http://example.org/tech/macos/apps/alfred/awgo/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/alfred/awgo/index.html</guid>
+      <description>AwGo An awesome library to make Alfred Workflows made by Deanishe.
+Notes Using macOS console app is a lot nicer than using Alfred debugger. You can access it by running workflow:log in a script filter. Where workflow: is a magic argument with a bunch of other dev related things you can run. You need to add unique UID to have Alfred learn from your usage. </description>
+    </item>
+    <item>
+      <title>BetterTouchTool</title>
+      <link>http://example.org/tech/macos/apps/bettertouchtool/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/bettertouchtool/index.html</guid>
+      <description>BetterTouchTool I use BTT to customize different trackpad gestures either globally or on per app basis. I also use BTT for all my window management needs (move window left/right or maximize).
+You can download my BTT Profile and import it to your BetterTouchTool to get all gestures I setup for myself (or just look around and see what you like). Gestures that save me most time are moving between tabs with three finger gestures (+ closing/opening tabs with up &amp;amp; down gestures).</description>
+    </item>
+    <item>
+      <title>Contacts</title>
+      <link>http://example.org/tech/macos/apps/contacts/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/contacts/index.html</guid>
+      <description>Contacts I use Contacts app as a contact book of people I both know and people I am interested in.
+I use this workflow to quickly search through all my contacts. I add tags (i.e. the name of event we met at or person&amp;rsquo;s skills/interests) to make both the searching and remembering who the person is or what he/she does easier.
+I add [ to contacts that are of greater importance.</description>
+    </item>
+    <item>
+      <title>Fantastical</title>
+      <link>http://example.org/tech/macos/apps/fantastical/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/fantastical/index.html</guid>
+      <description>Fantastical I use the app to manage events in my life I sync with Google Calendar.
+I always view my events from Week view &amp;amp; have 7 days in view with 18 hours shown in one view. This gives perspective over current and upcoming events/deadlines. All events created by default have 30 min duration.
+I often switch between Week and Month views.
+Cron &amp;amp; Amie are nice too.
+Notes To mass delete events, make empty search query (single space) on events I want to remove and delete them.</description>
+    </item>
+    <item>
+      <title>Hammerspoon</title>
+      <link>http://example.org/tech/macos/apps/hammerspoon/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/hammerspoon/index.html</guid>
+      <description>Hammerspoon Code -- Call Hammerspoon functions from AppleScript -- First activate applescript support: hs.allowAppleScript(true) -- Then you can call functions from your lua code like this: tell application &amp;#34;Hammerspoon&amp;#34; execute lua code &amp;#34;showClipBoardContent()&amp;#34; end tell -- In the above case it would call showClipBoardContent() function -- Bind function to hotkey hs.hotkey.bind(&amp;#34;ctrl&amp;#34;, &amp;#34;return&amp;#34;, function() hs.notify.new({title=&amp;#34;Hammerspoon&amp;#34;, informativeText=&amp;#34;Hello World&amp;#34;}):send() end) -- URL handler alert hs.urlevent.bind(&amp;#34;someAlert&amp;#34;, function(eventName, params) hs.alert.show(&amp;#34;Hey there alert&amp;#34;) end) -- After having this line in init.</description>
+    </item>
+    <item>
+      <title>Hazel</title>
+      <link>http://example.org/tech/macos/apps/hazel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/hazel/index.html</guid>
+      <description>Hazel I once used Hazel to sort things in ~/Downloads folder.
+You can sync Hazel rules with Dropbox.
+Notes If you want to have your rules to be applied onto subfolders as well as the directory chosen, add this rule. If extensions are hidden, don&amp;rsquo;t add extensions in the rule editor too. Links Reference hazel file path Hazel Debug Mode Nice use cases of Hazel </description>
+    </item>
+    <item>
+      <title>iTerm</title>
+      <link>http://example.org/tech/macos/apps/iterm/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/iterm/index.html</guid>
+      <description>iTerm Moved to Warp terminal from iTerm.
+Use Zsh as my shell together with Antibody plugin manager and Pure theme.
+Assigned w + j with Karabiner to open the app from Keyboard Maestro in seconds.
+I used Primer GitHub theme for iTerm. And share my iTerm preferences.
+I have iTerm switch between Primer Light and Primer Dark themes as I change between macOS appearances.
+Primer Light
+Primer Dark
+My workflow I always have at least 3 tabs (sessions) always open in iTerm.</description>
+    </item>
+    <item>
+      <title>JavaScript for Automation</title>
+      <link>http://example.org/tech/macos/jxa/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/jxa/index.html</guid>
+      <description>JavaScript for Automation Code // Get URL of front most tab Application(&amp;#34;Google Chrome Canary&amp;#34;).windows[0].activeTab.url(); // Activate app it = Application(&amp;#34;Safari&amp;#34;); it.activate(); // Minimize all Safari windows but the currently focused one safari = Application(&amp;#34;Safari&amp;#34;); // Front most window has index 0 for (var i = 1; i &amp;lt; safari.windows.length; i++) { var win = safari.windows[i]; if (win.miniaturized() === false) win.miniaturized = true; } // Get selected text in Chrome Canary Application(&amp;#34;Google Chrome Canary&amp;#34;).</description>
+    </item>
+    <item>
+      <title>Karabiner</title>
+      <link>http://example.org/tech/macos/apps/karabiner/karabiner/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/karabiner/karabiner/index.html</guid>
+      <description>Karabiner Karabiner is life changing tool that lets you remap keys at a low level on macOS.
+I completely remapped my keyboard with it and every key on my keyboard is a custom modifier key that I can program to do what I want.
+For example you can make caps lock into an escape key when pressed once but if you hold it, it becomes a hyper key. Hyper key means that a key now serves two purposes, once when pressed alone and once when held down.</description>
+    </item>
+    <item>
+      <title>Keyboard Maestro</title>
+      <link>http://example.org/tech/macos/apps/keyboard-maestro/keyboard-maestro/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/keyboard-maestro/keyboard-maestro/index.html</guid>
+      <description>Keyboard Maestro Keyboard Maestro is essentially an IDE for automation. You create macros of actions that you can then easily call from Karabiner.
+It has a wonderful community that is happy to help with whatever you are trying to achieve.
+I share all the macros I use with the app.
+Notes It is always better to run compiled AppleScripts. Assert action. &amp;ldquo;If not condition, then fail&amp;rdquo;. Useful for checking if you got right kind of data.</description>
+    </item>
+    <item>
+      <title>Keychain</title>
+      <link>http://example.org/tech/macos/apps/keychain/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/keychain/index.html</guid>
+      <description>Keychain Notes I can use Keychain to store credentials in workflows. Like in example this workflow. Links Keep your secrets in macOS Keychain </description>
+    </item>
+    <item>
+      <title>Little Snitch</title>
+      <link>http://example.org/tech/macos/apps/little-snitch/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/little-snitch/index.html</guid>
+      <description>Little Snitch Links Keyboard shortcuts Rule groups for Little Snitch based on unified host list to block ads, malware, fake news and porn </description>
+    </item>
+    <item>
+      <title>MindNode</title>
+      <link>http://example.org/tech/macos/apps/mindnode/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/mindnode/index.html</guid>
+      <description>MindNode An application which allowed me to originally create all of the maps for Learn Anything.
+I visualize topics and their relations as an interactive mind map.
+More recently I am using Excalidraw &amp;amp; Obsidian for making mind maps.
+At some point, I used MindNode as a way to break down problems into smaller parts.
+Notes ⌥ + delete will delete currently selected node only unlike delete which will delete the entire branch.</description>
+    </item>
+    <item>
+      <title>Pixave</title>
+      <link>http://example.org/tech/macos/apps/pixave/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/pixave/index.html</guid>
+      <description>Pixave I once used Pixave as my personal image library. Here is how my library looked:
+I am moving the library to Apple Photos with everything sorted with folders.</description>
+    </item>
+    <item>
+      <title>ScriptKit</title>
+      <link>http://example.org/tech/macos/apps/scriptkit/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/scriptkit/index.html</guid>
+      <description>Script Kit Notes console.log() will display in both the app and the log. log() will only display in the log Links Call into ScriptKit directly with Karabiner Script Kit Guide </description>
+    </item>
+    <item>
+      <title>Sketch</title>
+      <link>http://example.org/tech/macos/apps/sketch/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/sketch/index.html</guid>
+      <description>Sketch Plugins Midnight - Dark UI for Sketch. File Cleaner - Keeps your Sketch files immaculately clean and in order. Links Why you should care about keeping your design files clean (2018) How to build your first Sketch plugin (2019) Sketch Elements - Free iOS UI kit, brought to you by Sketch. Automate Sketch - Make your workflow more efficient. story2sketch - Convert Storybook stories into Sketch symbols. Sketch Real-time collaboration macOS UI Kit for Sketch - Incredibly detailed and most accurate macOS UI Kit for Sketch.</description>
+    </item>
+    <item>
+      <title>Textual</title>
+      <link>http://example.org/tech/macos/apps/textual/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/textual/index.html</guid>
+      <description>Textual I like IRC even though Discord is a strictly superior experience. I currently use Matrix and Element client to connect to IRC Freenode channels I care about.
+In Textual, when I did use it, I used Geeza Pro Regular 18pt font &amp;amp; built in Tomorrow Night (Eighties) theme.
+Textual has great channel search feature.
+One day I hope someone makes a solid macOS native client for Matrix that has all the features and speed of Textual.</description>
+    </item>
+    <item>
+      <title>Timing</title>
+      <link>http://example.org/tech/macos/apps/timing/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/timing/index.html</guid>
+      <description>Timing I once used Timing app to fully automate tracking time I spend on my computer.
+I setup projects in Timing with rules assigned for each project. I then had Timing infer time I spent on these projects automatically based on the rules.
+No longer use any tracking apps as part of my minimization of tools I use.
+Notes Can press ⌥ + → in Review tab to expand all items fully (assuming I selected the items I want to expand).</description>
+    </item>
+    <item>
+      <title>Trello</title>
+      <link>http://example.org/tech/macos/apps/trello/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/trello/index.html</guid>
+      <description>Trello I once used it to manage projects before Notion came along.
+I like that you can assign yourself to the cards you are working on now and filter to see only assigned cards by pressing Q key. I also marked cards I want to work on next with Next tag.
+Notes You can attach link to card by simply selecting card and pressing ⌘ + V. You can also add a link as a new card itself by simply ⌘ + Ving in the new card area.</description>
+    </item>
+    <item>
+      <title>Tweetbot</title>
+      <link>http://example.org/tech/macos/apps/tweetbot/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/tweetbot/index.html</guid>
+      <description>Tweetbot I once used the app to stay up to date and communicate on Twitter.
+I split the app into 2 columns on mac.
+First column: Mentions / Messages / Other Second column: Timeline. Tweets with highest value to me. I now use the official Twitter app on iOS and Twitter web on macOS.
+Notes There is a limit of 1600 tweets that can be shown in Timeline or list. More than that will not be shown and tweets will be lost from the feed.</description>
+    </item>
+    <item>
+      <title>Typinator</title>
+      <link>http://example.org/tech/macos/apps/typinator/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/typinator/index.html</guid>
+      <description>Typinator Used the app previously to automate text expansions. Now use Alfred (simple expansions) &amp;amp; Keyboard Maestro (complex) instead.
+Notes You can press ⌥ + ⌫ to delete snippet without dialogue box. Links Write once, never write again - Detailed article on how I effectively use Typinator together with Keyboard Maestro to automate big parts of my writing process. Fantastical natural input + Text expansions - How to use Typinator to quickly expand natural language date times in Fantastical app.</description>
+    </item>
+    <item>
+      <title>Xcode</title>
+      <link>http://example.org/tech/macos/apps/xcode/xcode/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tech/macos/apps/xcode/xcode/index.html</guid>
+      <description>Xcode Tuist &amp;amp; Xcode Copilot are great.
+ShadowVim seems nice too.
+Notes &amp;ldquo;Run without building&amp;rdquo; has saved me so much time, it&amp;rsquo;s ridiculous Use different colours for the console output to make the log output easier to reason about Xcode can show the view frames in a running app Wondering about an unfamiliar Xcode build setting? Try option+double clicking on it in the target editor for a descriptive tooltip. Don&amp;rsquo;t install Xcode from app store if you need it to work.</description>
+    </item>
+  </channel>
+</rss>

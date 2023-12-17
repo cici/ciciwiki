@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.118.2">
+    <meta name="generator" content="Relearn 5.15.1+tip">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="My Collection of info and resources">
+    <meta name="author" content="Ci-Ci Thomson">
+    <title></title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../../../css/fontawesome-all.min.css?1702839818" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../../css/fontawesome-all.min.css?1702839818" rel="stylesheet"></noscript>
+    <link href="../../../../css/nucleus.css?1702839818" rel="stylesheet">
+    <link href="../../../../css/auto-complete.css?1702839818" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../../css/auto-complete.css?1702839818" rel="stylesheet"></noscript>
+    <link href="../../../../css/perfect-scrollbar.min.css?1702839818" rel="stylesheet">
+    <link href="../../../../css/fonts.css?1702839818" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../../css/fonts.css?1702839818" rel="stylesheet"></noscript>
+    <link href="../../../../css/theme.css?1702839818" rel="stylesheet">
+    <link href="../../../../css/theme-auto.css?1702839818" rel="stylesheet" id="variant-style">
+    <link href="../../../../css/variant.css?1702839818" rel="stylesheet">
+    <link href="../../../../css/print.css?1702839818" rel="stylesheet" media="print">
+    <link href="../../../../css/ie.css?1702839818" rel="stylesheet">
+    <script src="../../../../js/url.js?1702839818"></script>
+    <script src="../../../../js/variant.js?1702839818"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="../../../../index.search.js";
+      var root_url="../../../../";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='http:\/\/example.org/';
+      window.variants && variants.init( [ 'auto' ] );
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="../../../../tech/macos/apps/macos-apps/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+            <a class="nav nav-next topbar-link" href="../../../../tech/macos/apps/1password/index.html" title="1Password (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+            <a class="nav nav-prev topbar-link" href="../../../../tech/index.html" title="Tech Stuff (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../../index.html"><span itemprop="name">GeekDocs</span></a><meta itemprop="position" content="1"> &gt; </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../../tech/index.html"><span itemprop="name">Tech Stuff</span></a><meta itemprop="position" content="2"> &gt; </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">GeekDocs</span><meta itemprop="position" content="3"></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="toc-wrapper"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#nice-oss-macos-swiftobjc-apps">Nice OSS macOS Swift/ObjC apps</a></li>
+    <li><a href="#other-interesting-apps">Other interesting apps</a></li>
+    <li><a href="#apps-i-used-but-dropped">Apps I used but dropped</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#notes">Notes</a></li>
+    <li><a href="#links">Links</a></li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id=""></h1>
+
+<h1 id="macos-apps">macOS apps</h1>
+<p>I maintain a big list of apps I use on my system <a href="https://github.com/nikitavoloboev/my-mac" target="_blank">here</a> together with why and how I use them.</p>
+<p>And <a href="../../code/config.md">here</a> is a full list of the apps I have inside my <code>/Applications</code> folder.</p>
+<h2 id="nice-oss-macos-swiftobjc-apps">Nice OSS macOS Swift/ObjC apps</h2>
+<ul>
+<li><a href="https://github.com/lukakerr/Pine" target="_blank">Pine</a> - Modern, native macOS markdown editor.</li>
+<li><a href="https://github.com/lukakerr/twig/" target="_blank">Twig</a> - Modern macOS markdown editor.</li>
+<li><a href="https://github.com/flowtoolz/Flowlist" target="_blank">Flowlist</a> - Fun Self-Management for macOS.</li>
+<li><a href="https://github.com/jacklandrin/OnlySwitch" target="_blank">OnlySwitch</a> - All-in-One status bar button, hide MacBook Pro&rsquo;s notch, dark mode, AirPods. (<a href="https://www.jacklandrin.com/2021/12/01/onlyswitch/" target="_blank">Web</a>)</li>
+<li><a href="https://github.com/sveinbjornt/Sloth" target="_blank">Sloth</a> - Displays all open files and sockets in use by all running processes on your system. (<a href="https://news.ycombinator.com/item?id=34828012" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/overtake/TelegramSwift" target="_blank">TelegramSwift macOS</a></li>
+<li><a href="https://github.com/mxcl/Workbench" target="_blank">Workbench</a> - Seamless, automatic, “dotfile” sync to iCloud.</li>
+<li><a href="https://github.com/objective-see/LuLu" target="_blank">LuLu</a> - Free macOS firewall. (<a href="https://objective-see.com/products/lulu.html" target="_blank">Web</a>) (<a href="https://news.ycombinator.com/item?id=25743546" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/zagahr/Conferences.digital" target="_blank">Conferences.digital</a> - Watch the latest and greatest conference videos on your Mac.</li>
+<li><a href="https://github.com/sindresorhus/Gifski" target="_blank">Gifski</a> - Convert videos to high-quality GIFs on your Mac.</li>
+<li><a href="https://github.com/twostraws/Sourceful" target="_blank">Sourceful</a> - Native source editor for iOS and macOS.</li>
+<li><a href="https://github.com/thompsonate/Shifty" target="_blank">Shifty</a> - MacOS menu bar app that gives you more control over Night Shift.</li>
+<li><a href="https://github.com/robaho/seashore" target="_blank">Seashore</a> - Easy to use mac osx image editing application, gimp light.</li>
+<li><a href="https://github.com/fespinoza/LinkedIdeas" target="_blank">Linked Ideas</a> - MacOS/iOS apps to treat ideas as links of concepts.</li>
+<li><a href="https://github.com/soffes/HotKey" target="_blank">HotKey</a> - Simple global shortcuts in macOS.</li>
+<li><a href="https://github.com/mangerlahn/Latest" target="_blank">Latest</a> - Small utility app for macOS that makes sure you know about all the latest updates to the apps you use. (<a href="https://max.codes/latest/" target="_blank">Web</a>)</li>
+<li><a href="https://github.com/dwarvesf/hidden" target="_blank">Hidden Bar</a> - Ultra-light MacOS utility that helps hide menu bar icons. (<a href="https://news.ycombinator.com/item?id=21794858" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/Ranchero-Software/NetNewsWire" target="_blank">NetNewsWire</a> - RSS reader for macOS and iOS.</li>
+<li><a href="https://github.com/karaggeorge/macos-key-cast" target="_blank">macos-key-cast</a> - Log keys pressed on macOS. Useful for screen recordings and presentations.</li>
+<li><a href="https://github.com/rxhanson/Rectangle" target="_blank">Rectangle</a> - Move and resize windows on macOS with keyboard shortcuts and snap areas. (<a href="https://rectangleapp.com/" target="_blank">Web</a>)</li>
+<li><a href="https://github.com/sindresorhus/Plash" target="_blank">Plash</a> - Make any website your Mac desktop wallpaper.</li>
+<li><a href="https://github.com/tmandry/Swindler" target="_blank">Swindler</a> - Swift window management library for macOS.</li>
+<li><a href="https://github.com/alin23/Lunar" target="_blank">Lunar</a> - Intelligent adaptive brightness for your external display.</li>
+<li><a href="https://github.com/pqrs-org/Tinkle/" target="_blank">Tinkle</a> - Appends a visual effect for the focused window changes.</li>
+<li><a href="https://github.com/p0deje/Maccy" target="_blank">Maccy</a> - Lightweight clipboard manager for macOS.</li>
+<li><a href="https://github.com/sindresorhus/Pasteboard-Viewer" target="_blank">Pasteboard Viewer</a> - Inspect the system pasteboards on macOS.</li>
+<li><a href="https://github.com/dexterleng/vimac/" target="_blank">Vimac</a> - Vimium for macOS. (<a href="https://vimacapp.com/" target="_blank">Web</a>) (<a href="https://news.ycombinator.com/item?id=24323378" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/halo/LinkLiar" target="_blank">LinkLiar</a> - Link-Layer MAC spoofing GUI for macOS.</li>
+<li><a href="https://github.com/SuprHackerSteve/Crescendo" target="_blank">Crescendo</a> - Swift based, real time event viewer for macOS. It utilizes Apple&rsquo;s Endpoint Security Framework.</li>
+<li><a href="https://github.com/dwarvesf/Blurred" target="_blank">Blurred</a> - macOS utility that helps reduce distraction by dimming your inactive noise.</li>
+<li><a href="https://github.com/goranmoomin/HackerNews" target="_blank">HackerNews.app</a> - macOS HackerNews client that aims to be a Mac-assed Mac app. Written in Swift + AppKit. (<a href="https://news.ycombinator.com/item?id=27900862" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/lapfelix/BluetoothConnector" target="_blank">BluetoothConnector</a> - Simple macOS CLI to connect/disconnect a Bluetooth device. Useful for AirPods or other Bluetooth headphones.</li>
+<li><a href="https://github.com/tanin47/tip" target="_blank">Universal Tip</a> - Programmable tooltip that can be used with any macOS app.</li>
+<li><a href="https://github.com/noodlewerk/NWPusher" target="_blank">NWPusher</a> - macOS and iOS application and framework to play with the Apple Push Notification service.</li>
+<li><a href="https://github.com/kaunteya/MacCacheCleaner" target="_blank">MacCacheCleaner</a></li>
+<li><a href="https://github.com/Zeqiang-Lai/Timer-APP" target="_blank">Timer App</a> - Simple Stopwatch App for macOS.</li>
+<li><a href="https://github.com/lvsti/Cameo" target="_blank">Cameo</a> - Small utility based on CMIOKit to explore installed CMIO DAL plugins and their properties.</li>
+<li><a href="https://github.com/pigigaldi/Pock" target="_blank">Pock</a> - Display macOS Dock in Touch Bar.</li>
+<li><a href="https://github.com/jariz/Akku" target="_blank">Akku</a> - Missing macOS bluetooth headset battery indicator app.</li>
+<li><a href="https://github.com/subethaedit/SubEthaEdit" target="_blank">SubEthaEdit</a> - General purpose plain-text editor for macOS. Widely known for its live collaboration feature. (<a href="https://subethaedit.net/" target="_blank">Web</a>) (<a href="https://news.ycombinator.com/item?id=23199805" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/lexrus/RegExPlus" target="_blank">RegEx+</a> - Nifty RegEx test tool built with SwiftUI.</li>
+<li><a href="https://github.com/samuelmeuli/glance" target="_blank">Glance</a> - Provides Quick Look previews for files that macOS doesn&rsquo;t support out of the box.</li>
+<li><a href="https://github.com/the0neyouseek/MonitorControl" target="_blank">MonitorControl</a> - Control your external monitor brightness &amp; volume on your Mac.</li>
+<li><a href="https://ellen.li/up-next/" target="_blank">Up Next</a> - Meetings at a glance from your macOS menu bar.</li>
+<li><a href="https://github.com/hkgumbs/multi" target="_blank">Multi</a> - Create a custom, lightweight macOS app from a group of websites. (<a href="https://news.ycombinator.com/item?id=23275080" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/xiaohk/FaceData" target="_blank">Face Data</a> - macOS application used to auto-annotate landmarks from a video.</li>
+<li><a href="https://github.com/jnross/Bluetility" target="_blank">Bluetility</a> - General-purpose Bluetooth Low-Energy utility.</li>
+<li><a href="https://github.com/zenangst/Gray/" target="_blank">Gray</a> - Tailor your macOS Mojave experience.</li>
+<li><a href="https://github.com/jpsim/Milestones" target="_blank">Milestones</a> - App to count down the days until upcoming milestones. Built to try out the Swift Composable Architecture, SwiftUI and Combine.</li>
+<li><a href="https://github.com/zadr/j2s" target="_blank">j2s</a> - macOS app to convert JSON to Swift structs.</li>
+<li><a href="https://github.com/michaelvillar/timer-app" target="_blank">Timer</a> - Simple Timer app for Mac.</li>
+<li><a href="https://github.com/DeVaukz/MachO-Explorer" target="_blank">Mach-O Explorer</a> - Graphical Mach-O viewer for macOS.</li>
+<li><a href="https://github.com/Clipy/Clipy" target="_blank">Clipy</a> - Clipboard extension app for macOS.</li>
+<li><a href="https://github.com/lwouis/alt-tab-macos" target="_blank">AltTab</a> - Windows alt-tab on macOS.</li>
+<li><a href="https://github.com/leits/MeetingBar" target="_blank">MeetingBar</a> - Menu bar app for your calendar meetings. (<a href="https://news.ycombinator.com/item?id=23991111" target="_blank">HN</a>)</li>
+<li><a href="https://boop.okat.best/" target="_blank">Boop</a> - Scriptable scratchpad for developers. In slow yet steady progress. (<a href="https://github.com/IvanMathy/Boop" target="_blank">Code</a>)</li>
+<li><a href="https://www.globaldelight.com/boom/" target="_blank">Boom3D</a> - Volume Booster &amp; Equalizer for Mac and Windows.</li>
+<li><a href="https://github.com/DanielStormApps/Fanny" target="_blank">Fanny</a> - Monitor your Mac&rsquo;s fan speed and CPU/GPU temperature from your Notification Center.</li>
+<li><a href="https://github.com/ngquerol/Diurna" target="_blank">Diurna</a> - Basic/Classic Hacker News app, used as a Cocoa &amp; Swift learning platform.</li>
+<li><a href="https://github.com/bitgapp/eqMac" target="_blank">eqMac</a> - macOS System-wide Audio Equalizer.</li>
+<li><a href="https://sensible-side-buttons.archagon.net/" target="_blank">SensibleSideButtons</a> - Side navigation for third-party mice in macOS. (<a href="https://news.ycombinator.com/item?id=24389977" target="_blank">HN</a>)</li>
+<li><a href="https://devutils.app/" target="_blank">DevUtils</a> - Developer Utilities for macOS. (<a href="https://github.com/DevUtilsApp/DevUtils-app" target="_blank">Code</a>) (<a href="https://news.ycombinator.com/item?id=24604291" target="_blank">HN</a>) (<a href="https://news.ycombinator.com/item?id=29077933" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/ZeeZide/5GUIs" target="_blank">5 GUIs</a> - Tiny macOS app that can detect the GUI technologies used in other apps.</li>
+<li><a href="https://github.com/exelban/stats" target="_blank">Stats</a> - macOS system monitor in your menu bar.</li>
+<li><a href="https://github.com/AdamWagner/stackline" target="_blank">Stackline</a> - Visualize yabai window stacks on macOS. Works with yabai &amp; hammerspoon.</li>
+<li><a href="https://github.com/fcanas/mirror-displays" target="_blank">mirror-displays</a> - Mac app and command-line tool for fiddling with display mirroring: on/off/toggle.</li>
+<li><a href="https://github.com/gao-sun/eul" target="_blank">eul</a> - macOS status monitoring app written in SwiftUI.</li>
+<li><a href="https://github.com/duanefields/VirtualKVM" target="_blank">VirtualKVM</a> - Automatically toggles Bluetooth and Target Display Mode when you connect a Macbook to your iMac via Thunderbolt.</li>
+<li><a href="https://github.com/keycastr/keycastr" target="_blank">Keycastr</a> - Open-source keystroke visualizer.</li>
+<li><a href="https://github.com/pedrommcarrasco/Brooklyn" target="_blank">Brooklyn</a> - Screensaver inspired by Apple&rsquo;s Event on October 30, 2018.</li>
+<li><a href="https://github.com/inket/stts" target="_blank">stts</a> - macOS app for monitoring the status of cloud services.</li>
+<li><a href="https://github.com/dwarvesf/auto-dnd" target="_blank">Auto DND</a> - Mac app that keeps notifications stays right where it should.</li>
+<li><a href="https://github.com/kendfinger/virtual" target="_blank">Virtual</a> - Boot Linux VMs in a single command on macOS using the new Virtualization.framework.</li>
+<li><a href="https://github.com/josh-/CloudyTabs" target="_blank">CloudyTabs</a> - Menu bar application that lists your iCloud Tabs and Reading List.</li>
+<li><a href="https://xbarapp.com/" target="_blank">Xbar</a> - Put anything in your macOS menu bar. (<a href="https://github.com/matryer/xbar" target="_blank">Code</a>) (<a href="https://news.ycombinator.com/item?id=26512460" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/swiftbar/SwiftBar" target="_blank">SwiftBar</a> - Powerful macOS menu bar customization tool.</li>
+<li><a href="https://github.com/Kevin-De-Koninck/Clean-Me" target="_blank">Clean Me</a> - macOS system analyzer and cleaner.</li>
+<li><a href="https://imageoptim.com/mac" target="_blank">ImageOptim</a> - GUI image optimizer for Mac. (<a href="https://github.com/ImageOptim/ImageOptim" target="_blank">Code</a>)</li>
+<li><a href="https://github.com/superhighfives/pika" target="_blank">Pika</a> - Open-source colour picker app for macOS. (<a href="https://superhighfives.com/pika" target="_blank">Web</a>)</li>
+<li><a href="https://github.com/syncthing/syncthing-macos" target="_blank">Syncthing macOS</a> - Native macOS Syncthing tray application bundle.</li>
+<li><a href="https://github.com/glushchenko/fsnotes" target="_blank">FSNotes</a> - Modern notes manager for macOS and iOS. (<a href="https://fsnot.es/" target="_blank">Web</a>) (<a href="https://news.ycombinator.com/item?id=28266831" target="_blank">HN</a>)</li>
+<li><a href="https://www.mothersruin.com/software/SuspiciousPackage/" target="_blank">Suspicious Package</a> - Application for Inspecting macOS Installer Packages.</li>
+<li><a href="https://cleanshot.com/" target="_blank">CleanShot X</a> - Capture your Mac’s screen like a pro.</li>
+<li><a href="https://contexts.co/" target="_blank">Contexts</a> - Simple &amp; fast window switcher for Mac.</li>
+<li><a href="https://github.com/dteoh/devdocs-macos" target="_blank">DevDocs macOS</a> - DevDocs API Documentation viewer for macOS.</li>
+<li><a href="https://github.com/jordansinger/finder-macos-swiftui" target="_blank">Finder built in SwiftUI for macOS</a></li>
+<li><a href="https://github.com/spotter-application/spotter" target="_blank">Spotter</a> - Productivity tool to launch everything. Alfred alternative.</li>
+<li><a href="https://github.com/nat/keyrace" target="_blank">keyrace</a> - Daily multiplayer keyboard races for macOS.</li>
+<li><a href="https://github.com/insidegui/DarkModeBuddy" target="_blank">DarkModeBuddy</a> - Automatically switch your Mac between light and dark modes based on the ambient light sensor.</li>
+<li><a href="https://github.com/lbrndnr/nuage-macos" target="_blank">Nuage</a> - Native SoundCloud app for macOS, written in SwiftUI.</li>
+<li><a href="https://github.com/seemoo-lab/openhaystack" target="_blank">OpenHaystack</a> - App for tracking personal Bluetooth devices via Apple&rsquo;s massive Find My network.</li>
+<li><a href="https://www.scriptkit.com/" target="_blank">Script Kit</a> - Automate Anything. (<a href="https://github.com/johnlindquist/kit" target="_blank">Code</a>) (<a href="https://www.youtube.com/watch?v=zu_g17ePajA" target="_blank">Use Script Kit to Automate Your Daily Workflows</a>)</li>
+<li><a href="https://github.com/hmarr/vitals" target="_blank">Vitals</a> - Tiny macOS process monitor.</li>
+<li><a href="https://github.com/PraneetNeuro/Patchman" target="_blank">Patchman</a> - MacOS application to test APIs with HTTP methods (Decluttered Postman).</li>
+<li><a href="https://sindresorhus.com/system-color-picker" target="_blank">System Color Picker</a> - macOS color picker as an app with more features. (<a href="https://github.com/sindresorhus/System-Color-Picker" target="_blank">Code</a>)</li>
+<li><a href="https://github.com/packagesdev/unexpectedly" target="_blank">Unexpectedly</a> - macOS utility to browse crash logs. (<a href="http://s.sudre.free.fr/Software/Unexpectedly/about.html" target="_blank">Web</a>)</li>
+<li><a href="https://auxl.io/" target="_blank">Auxl</a> - Modular API Client for macOS. (<a href="https://news.ycombinator.com/item?id=27352405" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/amebalabs/TRex" target="_blank">TRex</a> - Easy to use text extraction tool for macOS.</li>
+<li><a href="https://github.com/mattDavo/Yippy" target="_blank">Yippy</a> - macOS open source clipboard manager. (<a href="https://yippy.mattdavo.com/" target="_blank">Web</a>)</li>
+<li><a href="https://github.com/scriptingosx/DownloadFullInstaller" target="_blank">Download Full Installer</a> - macOS application written in SwiftUI that downloads installer pkgs for the Install macOS Big Sur application.</li>
+<li><a href="https://github.com/scrod/nv" target="_blank">Notational Velocity</a> - Modeless, mouseless Mac OS X note-taking application. (<a href="https://notational.net/" target="_blank">Web</a>)</li>
+<li><a href="https://github.com/AnaghSharma/Ambar-SwiftUI" target="_blank">Ambar</a> - MacOS Menu Bar app built with SwiftUI. Can be used as a template project.</li>
+<li><a href="https://ytmusic.app/" target="_blank">YT Music</a> - Mac app wrapper for music.youtube.com. (<a href="https://github.com/steve228uk/YouTube-Music" target="_blank">Code</a>)</li>
+<li><a href="https://informant-app.com/" target="_blank">Informant</a> - Inspect files with a single click. (<a href="https://github.com/tyirvine/Informant" target="_blank">Code</a>)</li>
+<li><a href="https://github.com/heyvito/podman-macos" target="_blank">Podman for macOS</a> - Start and stop both the Podman Machine and its running containers.</li>
+<li><a href="https://github.com/alvesjtiago/airpass" target="_blank">Airpass</a> - Status bar Mac app to overcome time constrained WiFi networks. (<a href="https://airpass.tiagoalves.me/" target="_blank">Web</a>)</li>
+<li><a href="https://github.com/RoyalIcing/Lantern" target="_blank">Lantern</a> - Mac app for website auditing and crawling. (<a href="https://icing.space/tools/lantern/" target="_blank">Web</a>)</li>
+<li><a href="https://rknight.me/apps/tracker-zapper/" target="_blank">TrackerZapper</a> - Mac app that sits in your menubar and silently removes tracking parameters from any links you copy. (<a href="https://github.com/rknightuk/TrackerZapper" target="_blank">Code</a>)</li>
+<li><a href="https://github.com/vincode-io/Zavala" target="_blank">Zavala</a> - Dedicated outliner for macOS, iPadOS, and iOS.</li>
+<li><a href="https://github.com/ParetoSecurity/pareto-mac" target="_blank">Pareto Mac</a> - Automatically audit your Mac for basic security hygiene.</li>
+<li><a href="https://github.com/maxchuquimia/quickdraw" target="_blank">Quick Draw</a> - macOS app for drawing over the screen.</li>
+<li><a href="https://github.com/revblaze/AppleMusicUltra" target="_blank">Ultra for Music</a> - Music Client for macOS.</li>
+<li><a href="https://github.com/ProfileCreator/ProfileCreator" target="_blank">ProfileCreator</a> - macOS application to create configuration profiles.</li>
+<li><a href="https://github.com/KnuffApp/Knuff" target="_blank">Knuff</a> - Debug application for Apple Push Notification Service (APNs).</li>
+<li><a href="https://github.com/kyleduo/TinyPNG4Mac" target="_blank">TinyPNG4Mac</a> - TinyPNG client for Mac.</li>
+<li><a href="https://github.com/pascalpp/FreeRuler" target="_blank">Free Ruler</a> - Ruler application for macOS.</li>
+<li><a href="https://github.com/rlxone/Equinox" target="_blank">Equinox</a> - Create dynamic wallpapers for macOS. (<a href="https://equinoxmac.com/" target="_blank">Web</a>)</li>
+<li><a href="https://github.com/containers/podman-desktop" target="_blank">podman-desktop</a> - Graphical menu bar application for managing Podman machines.</li>
+<li><a href="https://github.com/brianmichel/Lace" target="_blank">Marconio</a> - Simple NTS.live macOS application. Using Composable Architecture.</li>
+<li><a href="https://github.com/ObuchiYuki/DevToysMac" target="_blank">DevToysMac</a> - Helps in daily tasks like formatting JSON, comparing text, testing RegExp.</li>
+<li><a href="https://github.com/kasper/phoenix" target="_blank">Phoenix</a> - Lightweight macOS/OS X window and app manager scriptable with JavaScript.</li>
+<li><a href="https://snip.picta-hub.io/" target="_blank">Snip</a> - Lightweight snippets manager built with SwiftUI + Combine for macOS. (<a href="https://github.com/Pictarine/macos-snippets" target="_blank">Code</a>)</li>
+<li><a href="https://github.com/FelixKratz/SketchyVim" target="_blank">SketchyVim</a> - Turns macOS input fields into real vim buffers.</li>
+<li><a href="https://github.com/FelixKratz/SketchyBar" target="_blank">SketchyBar</a> - Highly customizable macOS status bar replacement.</li>
+<li><a href="https://github.com/Aayush9029/NativeTwitch" target="_blank">NativeTwitch</a> - Native Twitch Player.</li>
+<li><a href="https://github.com/ivoronin/TomatoBar" target="_blank">TomatoBar</a> - Pomodoro timer for macOS menu bar.</li>
+<li><a href="https://github.com/rsyncOSX/RsyncOSX" target="_blank">RsyncOSX</a> - macOS GUI for rsync.</li>
+<li><a href="https://github.com/LinkAndreas/Licenses" target="_blank">Licenses</a> - Native macOS App built using Swift UI and Combine.</li>
+<li><a href="https://github.com/sveinbjornt/ManDrake" target="_blank">ManDrake</a> - Native Mac man page editor with syntax coloring, mandoc syntax checking &amp; live preview.</li>
+<li><a href="https://github.com/CodeEditApp/CodeEdit" target="_blank">CodeEdit</a> - Free, open-source code editor for macOS. (<a href="https://news.ycombinator.com/item?id=30747211" target="_blank">HN</a>) (<a href="https://www.youtube.com/watch?v=mO65s-FRNJY" target="_blank">Interview with Austin Condiff</a>) (<a href="https://www.codeedit.app/" target="_blank">Web</a>)</li>
+<li><a href="https://github.com/scade-platform/Nimble" target="_blank">Nimble</a> - Lightweight native macOS editor based on everything we love about our favorite editors and IDEs.</li>
+<li><a href="https://github.com/dyerc/Doughnut" target="_blank">Doughnut</a> - Podcast App for macOS.</li>
+<li><a href="https://github.com/RoyalIcing/CollectedApp" target="_blank">Collected App</a></li>
+<li><a href="https://github.com/Aayush9029/NativeYoutube" target="_blank">NativeYoutube</a> - Personal App that turned into &ldquo;alpha released app&rdquo;.</li>
+<li><a href="https://github.com/helje5/Schemes" target="_blank">Schemes</a> - List apps with their registered schemes in macOS Launch Services.</li>
+<li><a href="https://github.com/mattrighetti/HNReaderApp" target="_blank">Hacker News client for macOS</a></li>
+<li><a href="https://github.com/SelfControlApp/selfcontrol" target="_blank">SelfControl</a> - Mac app to block your own access to distracting websites. (<a href="http://selfcontrolapp.com/" target="_blank">Web</a>)</li>
+<li><a href="https://github.com/n0shake/Clocker" target="_blank">Clocker</a> - macOS app to plan and organize through time zones.</li>
+<li><a href="https://github.com/robaho/seashore" target="_blank">Seashore</a> - Easy to use macOS image editing application for the rest of us.</li>
+<li><a href="https://github.com/macmade/Notarize" target="_blank">Notarize</a> - Notarization status monitoring tool for macOS, supporting multiple developer accounts.</li>
+<li><a href="https://github.com/vcamapp/app" target="_blank">VCam</a> - macOS app that displays an avatar using a virtual camera.</li>
+<li><a href="https://github.com/agentcooper/Telik" target="_blank">Telik</a> - macOS application to track YouTube channels and playlists.</li>
+<li><a href="https://github.com/rakutentech/macos-push-tester" target="_blank">macOS Push Tester App</a> - Allows you to send push notifications through APNS (Apple Push Notification Service) and receive them on a device.</li>
+<li><a href="https://github.com/tw93/MiaoYan" target="_blank">MiaoYan</a> - Lightweight Markdown app to help you write great sentences.</li>
+<li><a href="https://github.com/otaviocc/Pinboarding" target="_blank">Pinboarding</a> - Pinboard client for macOS in SwiftUI and Combine.</li>
+<li><a href="https://github.com/alyssaxuu/later" target="_blank">Later</a> - Save all your Mac apps for later with one click.</li>
+<li><a href="https://enpicsee.chitaner.com/" target="_blank">Picsee</a> - Image viewer &amp; organizer. (<a href="https://github.com/kzhiquan/Picsee" target="_blank">Issues</a>)</li>
+<li><a href="https://coteditor.com/" target="_blank">CotEditor</a> - Text Editor for macOS. (<a href="https://github.com/coteditor/CotEditor" target="_blank">Code</a>) (<a href="https://news.ycombinator.com/item?id=32114699" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/alin23/Clop" target="_blank">Clop</a> - Clipboard optimizer for macOS.</li>
+<li><a href="https://github.com/renaudjenny/SoliArt" target="_blank">MemoArt</a> - Solitaire/Patience/Klondike game but now developed with Swift, SwiftUI, TCA.</li>
+<li><a href="https://github.com/sonsongithub/MacCatalystWithAppKit" target="_blank">MacCatalystWithAppKit</a> - Build a Mac Catalyst application with AppKit.</li>
+<li><a href="https://github.com/barelyhuman/mark-mac" target="_blank">Mark</a> - macOS native markdown editor.</li>
+<li><a href="https://wooshy.app/" target="_blank">Wooshy</a> - Like Alfred but for the UI. (<a href="https://github.com/godbout/Wooshy.docs" target="_blank">Docs</a>)</li>
+<li><a href="https://github.com/ninxsoft/Mist" target="_blank">Mist</a> - Mac utility that automatically downloads macOS Firmwares / Installers.</li>
+<li><a href="https://cutbox.github.io/" target="_blank">CutBox</a> - Makes your macOS pasteboard awesome. (<a href="https://github.com/cutbox/CutBox" target="_blank">Code</a>)</li>
+<li><a href="https://github.com/kyan/kyan_bar" target="_blank">Kyan Bar</a> - Demo SwiftUI status bar app for macOS.</li>
+<li><a href="https://github.com/alldritt/UIBrowser4" target="_blank">UI Browser 4</a> - Ultimate assistant for Apple’s Accessibility and AppleScript GUI Scripting technologies.</li>
+<li><a href="https://github.com/DamascenoRafael/reminders-menubar" target="_blank">Reminders Menu Bar</a> - Simple macOS menu bar application to view and interact with reminders. Developed with SwiftUI and using Apple Reminders as a source.</li>
+<li><a href="https://trycoffee.co/" target="_blank">Coffee</a> - Tiny time tracker for your next big project.</li>
+<li><a href="https://assembl.app/" target="_blank">Assembl</a> - Effortless window manager for macOS. (<a href="https://github.com/rossmoody/Assembl" target="_blank">Code</a>)</li>
+<li><a href="https://github.com/pqrs-org/TrueWidget" target="_blank">TrueWidget</a> - Displays macOS version, CPU usage and local time at the left bottom of the screen.</li>
+<li><a href="https://github.com/macmade/IOBrowser" target="_blank">IOBrowser</a> - macOS application for browsing the IOKit registry.</li>
+<li><a href="https://github.com/Adelenade/GoXlr-Macos" target="_blank">GoXLR for Mac</a> - MacOS application to manage GoXLR without virtual machine.</li>
+<li><a href="https://github.com/techrisdev/Snap" target="_blank">Snap</a> - Better Spotlight search for macOS.</li>
+<li><a href="https://github.com/nahive/spotify-notify" target="_blank">Spotify Notify</a> - Rich, native Spotify notifications.</li>
+<li><a href="https://github.com/danqing/Pinch" target="_blank">Pinch</a> - One-click fix for Mac trackpad pinch to zoom gesture.</li>
+<li><a href="https://github.com/Dashlane/apple-apps" target="_blank">Dashlane macOS/iOS Code</a></li>
+<li><a href="https://github.com/mjrusso/scoot" target="_blank">Scoot</a> - Efficiently move your mouse cursor, using keyboard shortcuts.</li>
+<li><a href="https://github.com/okwasniewski/MiniSim" target="_blank">MiniSim</a> - MacOS menu bar app for launching iOS and Android emulators.</li>
+<li><a href="https://github.com/krevis/MIDIApps" target="_blank">MIDI Monitor</a> - Monitoring MIDI data as it goes in and out of the computer.</li>
+<li><a href="https://github.com/MarkEdit-app/MarkEdit" target="_blank">MarkEdit</a> - Just like TextEdit on Mac but dedicated to Markdown.</li>
+<li><a href="https://github.com/chocoford/ExcalidrawZ" target="_blank">ExcalidrawZ</a> - Excalidraw app for mac. Powered by pure SwiftUI.</li>
+<li><a href="https://github.com/curzel-it/pipper" target="_blank">Pipper</a> - App that allows users to keep a webview always visible on their screen, on top of other windows.</li>
+<li><a href="https://github.com/SerenaKit/Samra" target="_blank">Samra</a> - Proper, full-fledged native Asset Catalog explorer &amp; editor for macOS.</li>
+<li><a href="https://github.com/fabio914/PersonSegmentationMacOS" target="_blank">Person Segmentation</a> - macOS app that applies Apple&rsquo;s Person Segmentation algorithm to a video.</li>
+<li><a href="https://github.com/jordibruin/FromScratch" target="_blank">FromScratch</a> - Easily reset permissions for your macOS apps through a GUI.</li>
+</ul>
+<h2 id="other-interesting-apps">Other interesting apps</h2>
+<ul>
+<li><a href="https://tuple.app/" target="_blank">Tuple</a> - Pair Programming Tool for macOS. (<a href="https://news.ycombinator.com/item?id=29641907" target="_blank">HN</a>) (<a href="https://github.com/tupleapp" target="_blank">GitHub</a>)</li>
+<li><a href="https://github.com/johnste/finicky" target="_blank">Finicky</a> - MacOS app for customizing which browser to start.</li>
+<li><a href="https://github.com/lukakerr/OpenQuickly" target="_blank">OpenQuickly</a> - Custom &lsquo;open quickly&rsquo; window that imitates macOS&rsquo; Spotlight.</li>
+<li><a href="https://flotato.com/" target="_blank">Flotato</a> - Turn any web page into a Mac app.</li>
+<li><a href="https://github.com/apandhi/Autumn" target="_blank">Autumn</a> - MacOS window manager built for JavaScript hackers.</li>
+<li><a href="https://zapier.com/zappy" target="_blank">Zappy</a> - Screen capture tool. (<a href="https://news.ycombinator.com/item?id=22815227" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/objective-see/BlockBlock" target="_blank">BlockBlock</a> - Provides continual protection by monitoring persistence locations.</li>
+<li><a href="https://github.com/dwarvesf/VimMotionApp" target="_blank">VimMotion</a> - Access macOS UI elements with your fingers stay on keyboard. Inspired by vim-easymotion &amp; avy-mode.</li>
+<li><a href="https://ixeau.com/entity-pro/" target="_blank">Entity Pro</a> - Glyph &amp; Emoji Finder.</li>
+<li><a href="https://www.glyphfinder.com/" target="_blank">Glyphfinder</a> - Missing character search for designers, developers and writers.</li>
+<li><a href="https://usecontrast.com/" target="_blank">Contrast</a> - macOS app for quick access to WCAG color contrast ratios.</li>
+<li><a href="https://mouseless.app/" target="_blank">Mouseless</a></li>
+<li><a href="https://darioroa.com/codye/" target="_blank">Codye</a> - Allows you to present code in more than 180 languages and 80 themes.</li>
+<li><a href="https://www.coppiceapp.com/" target="_blank">Coppice</a> - Cultivate Your Thoughts.</li>
+<li><a href="https://hookproductivity.com/" target="_blank">Hook</a> - Find without searching.</li>
+<li><a href="https://apps.apple.com/pl/app/twenttty/id1534796314?mt=12" target="_blank">Twenttty</a> - Give your eyes a break.</li>
+<li><a href="https://pilotmoon.com/popclip/" target="_blank">PopClip</a> - Appears when you select text with your mouse on your Mac. (<a href="https://github.com/pilotmoon/PopClip-Extensions" target="_blank">PopClip Extensions</a>)</li>
+<li><a href="https://github.com/yichengchen/clashX" target="_blank">ClashX</a> - Rule based proxy For Mac base on Clash.</li>
+<li><a href="https://lacona.app/" target="_blank">Lacona</a> - Command launcher.</li>
+<li><a href="https://numi.app/" target="_blank">Numi</a> - Beautiful calculator app for Mac. (<a href="https://github.com/nikolaeu/numi" target="_blank">Code</a>) (<a href="https://news.ycombinator.com/item?id=26624386" target="_blank">HN</a>)</li>
+<li><a href="https://omz-software.com/vidl/" target="_blank">ViDL</a> - Download videos from YouTube and hundreds of other websites for offline viewing.</li>
+<li><a href="https://fsmonitor.com/" target="_blank">FSMonitor</a> - macOS app that monitors all changes to the file system.</li>
+<li><a href="https://www.obdev.at/products/launchbar/index.html" target="_blank">LaunchBar</a> - Application launcher for macOS. (<a href="https://github.com/benjaminwil/assimilated" target="_blank">Assimilated Theme</a>)</li>
+<li><a href="https://www.irradiatedsoftware.com/labs/" target="_blank">Irradiated Software macOS apps</a></li>
+<li><a href="https://freeze.app/" target="_blank">Freeze</a> - Save your open windows and tabs for later.</li>
+<li><a href="https://redsweater.com/fastscripts/" target="_blank">FastScripts</a> - Powerful script management utility. (<a href="https://redsweater.com/blog/3784/fastscripts-3" target="_blank">3.0 release</a>)</li>
+<li><a href="https://www.soma-zone.com/LaunchControl/" target="_blank">LaunchControl</a> - Fully-featured launchd GUI allowing you to create, manage and debug system- and user services on your Mac.</li>
+<li><a href="https://hextedit.app/" target="_blank">HextEdit</a> - Fast and native hex editor for macOS.</li>
+<li><a href="https://shortcat.app/" target="_blank">Shortcat</a> - Keyboard productivity app for macOS.</li>
+<li><a href="https://www.corecode.io/macupdater/" target="_blank">MacUpdater</a> - Keep all your apps up-to-date effortlessly.</li>
+<li><a href="https://flumeapp.com/" target="_blank">Flume</a> - Beautiful Instagram experience for your Mac.</li>
+<li><a href="https://apps.apple.com/us/app/aqua-swatch/id1565479346?mt=12" target="_blank">Aqua Swatch</a> - Match Color, Material &amp; Icons.</li>
+<li><a href="https://screenotate.com/" target="_blank">Screenotate</a> - Recognize text in your screenshots.</li>
+<li><a href="https://hera.so/" target="_blank">Hera</a> - macOS app to prepare, join and take notes in meetings. (<a href="https://news.ycombinator.com/item?id=27771091" target="_blank">HN</a>)</li>
+<li><a href="https://getmumu.com/" target="_blank">Mumu X</a> - Handy emoji picker on macOS, using GPT-3.</li>
+<li><a href="https://www.buildandshipapps.com/" target="_blank">Narrated</a> - Screen Recordings That Include Your Camera.</li>
+<li><a href="https://monodraw.helftone.com/" target="_blank">Monodraw</a> - Powerful ASCII art editor designed for the Mac.</li>
+<li><a href="https://textsniper.app/" target="_blank">TextSniper</a> - Capture and extract any text from your Mac&rsquo;s screen.</li>
+<li><a href="https://ixeau.com/keystroke-pro/" target="_blank">Keystroke Pro</a> - Visualize Your Keypresses.</li>
+<li><a href="https://kean.blog/pulse/home" target="_blank">Pulse</a> - Network Inspector and Logger for Apple Platforms. (<a href="https://twitter.com/PulseLogger" target="_blank">Twitter</a>) (<a href="https://kean.blog/pulse/guides/pulse-pro" target="_blank">Guide</a>) (<a href="https://github.com/kean/PulsePro" target="_blank">Code</a>)</li>
+<li><a href="https://www.keka.io/en/" target="_blank">Keka</a> - macOS file archiver. (<a href="https://twitter.com/kekaosx" target="_blank">Twitter</a>)</li>
+<li><a href="https://github.com/godbout/kindaVim" target="_blank">kindaVim</a> - Vim moves for the whole macOS. in input fields and more. (<a href="https://kindavim.app/" target="_blank">Web</a>) (<a href="https://github.com/godbout/kindaVim.theapp" target="_blank">Web Code</a>)</li>
+<li><a href="https://fireball.studio/oneswitch" target="_blank">One Switch</a></li>
+<li><a href="https://happenapps.com/#quiver" target="_blank">Quiver</a> - Programmer&rsquo;s Notebook.</li>
+<li><a href="https://github.com/ospfranco/sol" target="_blank">SOL</a> - macOS global command palette. Alfred/Raycast alternative. (<a href="https://news.ycombinator.com/item?id=32402631" target="_blank">HN</a>)</li>
+<li><a href="https://sindresorhus.com/one-thing" target="_blank">One Thing</a> - Put a single task or goal in your menu bar. (<a href="https://github.com/sindresorhus/one-thing" target="_blank">CLI</a>)</li>
+<li><a href="https://apps.apple.com/app/id1615595104" target="_blank">SF Menu Bar</a> - Browse Apple&rsquo;s collection of over 3,300 SF Symbols and quickly copy a symbol&rsquo;s name to the clipboard.</li>
+<li><a href="https://ixeau.com/couverture/" target="_blank">Couverture</a> - Easing Curve Editor.</li>
+<li><a href="https://muzzleapp.com/" target="_blank">Muzzle</a> - Silence embarrassing notifications.</li>
+<li><a href="https://www.hogbaysoftware.com/bike/" target="_blank">Bike</a> - macOS Native Outliner. (<a href="https://news.ycombinator.com/item?id=31409077" target="_blank">HN</a>) (<a href="https://bikeguide.hogbaysoftware.com/" target="_blank">Docs</a>)</li>
+<li><a href="https://indigostack.app/" target="_blank">IndigoStack</a> - native macOS app for local web development. (<a href="https://news.ycombinator.com/item?id=31485898" target="_blank">HN</a>)</li>
+<li><a href="https://replay.software/sleeve" target="_blank">Sleeve</a> - Now playing on your Desktop. (<a href="https://twitter.com/brian_lovin/status/1529866374654283781" target="_blank">Tweet</a>)</li>
+<li><a href="https://apps.apple.com/nl/app/graphing-calculator-4/id522175477" target="_blank">Graphing Calculator 4</a></li>
+<li><a href="http://www.bresink.com/osx/TinkerTool.html" target="_blank">TinkerTool</a> - Gives you access to additional preference settings Apple has built into macOS.</li>
+<li><a href="https://www.homerow.app/" target="_blank">Homerow</a> - Navigate macOS like a pro. (<a href="https://news.ycombinator.com/item?id=35451046" target="_blank">HN</a>)</li>
+<li><a href="https://lowtechguys.com/rcmd/" target="_blank">rcmd</a> - Reimagined Cmd-Tab app switcher.</li>
+<li><a href="https://marta.sh/" target="_blank">Marta</a> - File Manager for macOS.</li>
+<li><a href="https://apps.apple.com/app/id1601796450" target="_blank">Superlayer</a> - Widget Engine for macOS. (<a href="https://github.com/martinlexow/superlayer-support" target="_blank">Docs</a>)</li>
+<li><a href="https://onmyway133.com/pastepal/" target="_blank">PastePal</a> - Universal pasteboard manager for Mac, iPhone and iPad. (<a href="https://github.com/onmyway133/PastePal" target="_blank">Docs</a>)</li>
+<li><a href="https://onmyway133.com/codelime/" target="_blank">Codelime</a> - Powerful code snippet manager. (<a href="https://github.com/onmyway133/Codelime" target="_blank">Docs</a>)</li>
+<li><a href="https://showmeyourhotkeys.moxadventu.com/" target="_blank">ShowMeYourHotKeys</a> - macOS app to show applications menu shortcuts.</li>
+<li><a href="https://github.com/insidegui/TextTransformer" target="_blank">TextTransformer</a> - Apple ExtensionFoundation/ExtensionKit sample app.</li>
+<li><a href="https://orbstack.dev/" target="_blank">OrbStack</a> - Fast, light, simple Docker &amp; Linux for macOS. (<a href="https://github.com/orbstack/orbstack" target="_blank">Code</a>)</li>
+<li><a href="https://obdev.at/products/littlesnitch-mini/index.html" target="_blank">Little Snitch Mini</a> (<a href="https://news.ycombinator.com/item?id=35267707" target="_blank">HN</a>)</li>
+</ul>
+<h2 id="apps-i-used-but-dropped">Apps I used but dropped</h2>
+<h4 id="popcliphttpspilotmooncompopclip"><a href="https://pilotmoon.com/popclip/" target="_blank">Popclip</a></h4>
+<blockquote>
+<p>iOS like mouse text selection popover</p>
+</blockquote>
+<p>Brings up a quick menu whenever some text is selected on which I can do a number of quick actions, like searching selected text on Google, YouTube or copy the text. Here are the extensions I have activated:</p>
+<p>
+<a href="#image-c3ef53d65cebbb5c84a3b1696cd3e72d" class="lightbox-link">
+<img src="https://i.imgur.com/PS3HFvS.png" alt="" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-c3ef53d65cebbb5c84a3b1696cd3e72d">
+<img src="https://i.imgur.com/PS3HFvS.png" alt="" class="lightbox-image" loading="lazy">
+</a></p>
+<p>How it looked for me</p>
+<p>
+<a href="#image-315fd40ffd5e3413993508a373272b0c" class="lightbox-link">
+<img src="https://i.imgur.com/dxt2qjK.png" alt="" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-315fd40ffd5e3413993508a373272b0c">
+<img src="https://i.imgur.com/dxt2qjK.png" alt="" class="lightbox-image" loading="lazy">
+</a></p>
+<p>Everything I use comes by default with PopClip except YouTube extension which you can download <a href="https://www.dropbox.com/sh/gckplsy5d4mg4rq/AABgvWT9QKg0NlwC9Bz8X9B0a?dl=0" target="_blank">here</a>. I used <a href="http://brettterpstra.com/2014/05/12/popmaker-popclip-extension-generator/" target="_blank">PopMaker</a> tool to create this web search extension.</p>
+<h4 id="reederhttpreederappcommac"><a href="http://reederapp.com/mac/" target="_blank">Reeder</a></h4>
+<blockquote>
+<p>RSS Reeder</p>
+</blockquote>
+<p>The app I once used to keep up with my RSS feeds. I use RSS to follow my favorite blogs, stay up to date on new podcast episodes and even track some software releases.
+I used <a href="https://www.inoreader.com" target="_blank">Inoreader</a> to sync <a href="../../research/blogs.md">blogs I follow</a> between phone and mac. Here is how it looked like for me:</p>
+<p>
+<a href="#image-0f80a4cc5a9f8f3f76558e0e1b7b9941" class="lightbox-link">
+<img src="https://i.imgur.com/l0Cq6ZT.jpg" alt="" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-0f80a4cc5a9f8f3f76558e0e1b7b9941">
+<img src="https://i.imgur.com/l0Cq6ZT.jpg" alt="" class="lightbox-image" loading="lazy">
+</a></p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li><a href="https://twitter.com/poorlybatched/status/1608339437754421250" target="_blank">macOS Preview app has a built-in feature to remove image background</a></li>
+<li><code>sudo xattr -r -d com.apple.quarantine /Applications/ChatGPT.app</code> = would make it so you can open &lsquo;damaged&rsquo; apps. Replace <code>ChatGPT</code> with app you have.</li>
+</ul>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://github.com/learn-anything/macos-apps" target="_blank">Awesome macOS apps</a></li>
+<li><a href="https://github.com/serhii-londar/open-source-mac-os-apps" target="_blank">Open Source macOS apps</a> (<a href="https://news.ycombinator.com/item?id=28498797" target="_blank">HN</a>)</li>
+<li><a href="https://www.evernote.com/shard/s107/sh/c1c6cfa0-7558-4b17-84a0-6c7f6dce2a85/285e49afa8b122d9" target="_blank">Hyperlink and Deep Linking URLs</a></li>
+<li><a href="https://www.realartists.com/blog/ship-is-open-source.html" target="_blank">Ship app open source code</a> - Amazing GitHub native client that was closed down.</li>
+<li><a href="https://macopenweb.com/" target="_blank">Mac Open Web</a> - Collection of open and indie Mac, iOS, and web apps that help promote the open web. (<a href="https://github.com/good/openweb" target="_blank">Code</a>)</li>
+<li><a href="https://github.com/technosophos/dashing" target="_blank">Dashing</a> - Generate Dash documentation from HTML.</li>
+<li><a href="https://github.com/koekeishiya/yabai" target="_blank">yabai</a> - Tiling window manager for macOS based on binary space partitioning.</li>
+<li><a href="https://fabriziorinaldi.io/blog/things-advanced-workflows" target="_blank">3 Advanced Workflows for &ldquo;Things&rdquo; Power User</a></li>
+<li><a href="https://www.notion.so/54e01db500f24267afcf528cc02284a6" target="_blank">Apps &amp; services (Russian)</a></li>
+<li><a href="https://twitter.com/craigmod/status/1268788533990289409" target="_blank">List of most &ldquo;well-crafted&rdquo; piece of macOS software you use? (2020)</a></li>
+<li><a href="https://github.com/phmullins/awesome-macos" target="_blank">Awesome macOS Software</a></li>
+<li><a href="https://rambo.codes/posts/2021-01-08-distributing-mac-apps-outside-the-app-store" target="_blank">Distributing Mac apps outside the App Store, a quick start guide (2021)</a> (<a href="https://news.ycombinator.com/item?id=25757228" target="_blank">HN</a>) (<a href="https://news.ycombinator.com/item?id=34379156" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/jaywcjlove/awesome-mac" target="_blank">Awesome Mac</a> - Premium software sorted by category.</li>
+<li><a href="https://github.com/superhighfives/releasecast" target="_blank">Releasecast</a> - Tool to help you get from app to release.</li>
+<li><a href="https://dev.to/progrium/use-mac-apis-and-build-mac-apps-with-go-ap6" target="_blank">Use Mac APIs and build Mac apps with Go (2021)</a></li>
+<li><a href="https://thesweetbits.com/best-duplicate-file-finder-remover-mac/" target="_blank">The Best Mac Duplicate Finders (2021)</a></li>
+<li><a href="https://www.linkedin.com/pulse/what-makes-great-mac-app-vladimir-danila/" target="_blank">What Makes a Great Mac App? (2021)</a></li>
+<li><a href="https://sparkle-project.org/" target="_blank">Sparkle</a> - Open source software update framework for macOS. (<a href="https://github.com/sparkle-project/Sparkle" target="_blank">Code</a>)</li>
+<li><a href="https://github.com/replay-software/bump" target="_blank">Bump</a> - Easy way to release &amp; update indie Mac apps. (<a href="https://replay.software/bump" target="_blank">Web</a>) (<a href="https://almonk.medium.com/why-we-built-bump-an-automated-pipeline-for-releasing-apps-with-sparkle-ac8a6e330272" target="_blank">Why we built Bump</a>)</li>
+<li><a href="https://github.com/replay-software/bump-core" target="_blank">Bump Core</a> - CLI tool that powers the Bump deploy pipeline.</li>
+<li><a href="https://pracucci.com/atom-electron-signing-mac-app.html" target="_blank">Signing a Mac Application (2015)</a></li>
+<li><a href="https://github.com/steventroughtonsmith/advancedcatalystexample" target="_blank">Advanced Catalyst Example</a> - Example of a Catalyst app using a three-column layout, with a primary toolbar.</li>
+<li><a href="https://twitter.com/mxstbr/status/1404777523456716801" target="_blank">Amazing macOS apps list (2021)</a></li>
+<li><a href="https://github.com/figma/dynamic-universal-app" target="_blank">Dynamic Universal App</a> - Size efficient alternative to macOS universal binaries.</li>
+<li><a href="https://github.com/jspahrsummers/Microverse" target="_blank">Microverse</a> - macOS virtualization app for M1/Apple Silicon.</li>
+<li><a href="https://ostechnix.com/run-macos-software-on-linux-using-darling/" target="_blank">Run MacOS Software On Linux Using Darling (2021)</a> (<a href="https://lobste.rs/s/ju4vut/run_macos_software_on_linux_using_darling" target="_blank">Lobsters</a>)</li>
+<li><a href="https://www.charlessoft.com/" target="_blank">Pacifist</a> - Powerful multi-tool for working with macOS package files, disk images, and file archives.</li>
+<li><a href="https://danpetrov.xyz/macos/2021/11/14/analysing-network-quality-macos.html" target="_blank">macOS Monterey&rsquo;s new network quality tool is surprisingly good (2021)</a></li>
+<li><a href="https://github.com/rikumi/iconsur" target="_blank">IconSur</a> - macOS Big Sur Adaptive Icon Generator.</li>
+<li><a href="https://github.com/stackotter/swift-bundler" target="_blank">Swift Bundler</a> - Create macOS apps with Swift packages instead of Xcode projects.</li>
+<li><a href="https://alinpanaitiu.com/blog/apps-outside-app-store/" target="_blank">Why aren&rsquo;t the most useful Mac apps on the App Store? (2021)</a> (<a href="https://lobste.rs/s/x9k6uc/why_aren_t_most_useful_mac_apps_on_app_store" target="_blank">Lobsters</a>)</li>
+<li><a href="https://github.com/dunhamsteve/notesutils" target="_blank">Apple Notes Export Tools</a></li>
+<li><a href="https://github.com/steventroughtonsmith/CatalystEffectViewChrome" target="_blank">CatalystEffectViewChrome</a> - Demonstrates how to insert an NSVisualEffectView to the root of the main window of your Mac Catalyst app.</li>
+<li><a href="https://github.com/steventroughtonsmith/CatalystCommandBar" target="_blank">CommandBar</a> - Spotlight/&lsquo;Open Quickly&rsquo;-style &lsquo;command bar&rsquo; implemented using UIKit/Mac Catalyst.</li>
+<li><a href="https://mackuba.eu/2014/10/06/a-guide-to-nsbutton-styles/" target="_blank">A guide to NSButton styles</a></li>
+<li><a href="https://github.com/developer-guy/buildkit-machine" target="_blank">buildkit-machine</a> - Allows you to make buildkitd daemon accessible in your macOS environment.</li>
+<li><a href="https://mjtsai.com/blog/2022/01/12/catching-native-apps/" target="_blank">Catching Native Apps (2022)</a> (<a href="https://news.ycombinator.com/item?id=29913619" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/steventroughtonsmith/catalystvideogrid" target="_blank">Catalyst Video Grid</a> - Catalyst example of a grid-based video app that opens videos in secondary windows.</li>
+<li><a href="https://www.highcaffeinecontent.com/blog/20220216-Where-Mac-Catalyst-Falls-Short" target="_blank">Where Mac Catalyst Falls Short (2022)</a></li>
+<li><a href="https://github.com/Mortennn/Notarize" target="_blank">Notarize</a> - CLI to easily notarize a Mac app.</li>
+<li><a href="https://www.reddit.com/r/MacOS/comments/t2olo5/good_opensource_alternatives_to_essential_paid/" target="_blank">Good open-source alternatives to essential paid Mac apps (2022)</a></li>
+<li><a href="https://blog.jim-nielsen.com/2022/inspecting-web-views-in-macos/" target="_blank">Inspecting Web Views in macOS (2022)</a> (<a href="https://news.ycombinator.com/item?id=30648424" target="_blank">HN</a>)</li>
+<li><a href="https://www.linkandreas.de/#/articles/09_03_2021" target="_blank">Building a native macOS app using SwiftUI and Combine (2021)</a></li>
+<li><a href="https://christiantietze.de/posts/2022/03/half-assed-mac-apps/" target="_blank">What&rsquo;s the problem with old but excellent Mac apps? (2022)</a> (<a href="https://news.ycombinator.com/item?id=30552973" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/IBM/mac-ibm-notifications" target="_blank">IBM Notifier</a> - macOS agent used to display custom notifications and alerts to the end .</li>
+<li><a href="https://news.ycombinator.com/item?id=30753584" target="_blank">Ask HN: Book Recommendation for macOS Development (2022)</a> (<a href="https://lobste.rs/s/hjk1gx/book_recommendation_for_macos" target="_blank">Lobsters</a>)</li>
+<li><a href="https://twitter.com/avstorm/status/1506721880752984077" target="_blank">Show your desktop &amp; dock (2022)</a></li>
+<li><a href="https://gist.github.com/devnoname120/4767a0aa18879217170fd0c68809fc24" target="_blank">Mac software I love</a></li>
+<li><a href="https://www.remotion.com/blog/why-remotion-is-a-native-macos-app-not-electron" target="_blank">Why Remotion is a native macOS app (not Electron) (2021)</a> (<a href="https://news.ycombinator.com/item?id=30956846" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/steventroughtonsmith/CatalystToolbarMenuButton" target="_blank">CatalystToolbarMenuButton</a> - Showcasing how to build a dropdown menu toolbar button using AppKit.</li>
+<li><a href="https://bjango.com/articles/designingmenubarextras/" target="_blank">Designing macOS menu bar extras</a></li>
+<li><a href="https://www.fourth-wall.co.uk/post/10-tips-for-preview-the-default-mac-app-that-people-forget-about" target="_blank">Tips – Preview the Mac app people forget about</a> (<a href="https://news.ycombinator.com/item?id=31315110" target="_blank">HN</a>)</li>
+<li><a href="https://appfair.app/" target="_blank">App Fair</a> - Catalog browser for discovering &amp; installing macOS apps. (<a href="https://github.com/App-Fair/App" target="_blank">Code</a>)</li>
+<li><a href="https://mackuba.eu/notes/wwdc22/whats-new-in-appkit/" target="_blank">What&rsquo;s new in AppKit (2022)</a></li>
+<li><a href="https://developer.apple.com/macos/planning/" target="_blank">Planning your macOS app - Apple Developer</a></li>
+<li><a href="https://github.com/threeplanetssoftware/apple_cloud_notes_parser" target="_blank">Apple Cloud Notes Parser</a></li>
+<li><a href="https://twitter.com/rafahari/status/1592545990829277185" target="_blank">Nice UX from Things mac app (2022)</a></li>
+<li><a href="https://github.com/airmessage/airmessage-server" target="_blank">AirMessage Server</a> - Lets people use iMessage on the devices they like.</li>
+<li><a href="https://github.com/steventroughtonsmith/CatalystCustomSavePanels" target="_blank">CatalystCustomSavePanels</a> - Mac Catalyst example showcases a way to use NSSavePanel through an AppKit bridge.</li>
+<li><a href="https://github.com/SerenaKit/printents" target="_blank">printents</a> - CommandLine tool that prints the entitlements of an .app bundle or any executable on device.</li>
+<li><a href="https://sveinbjorn.org/platypus" target="_blank">Platypus</a> - Create Mac apps from command line scripts. (<a href="https://github.com/sveinbjornt/Platypus" target="_blank">Code</a>)</li>
+<li><a href="https://github.com/JadedTuna/apple-dictionary" target="_blank">Apple Dictionary Tools</a> - Tools for extracting data from Apple dictionary files.</li>
+<li><a href="https://dockhunt.vercel.app/" target="_blank">Dockhunt</a> - Share your dock and see who else has docked the apps you use. (<a href="https://github.com/Basedash/dockhunt" target="_blank">Code</a>)</li>
+<li><a href="https://news.ycombinator.com/item?id=34680345" target="_blank">Ask HN: Resources to Learn macOS Development? (2023)</a></li>
+<li><a href="https://tailscale.com/blog/macos-binary-size/" target="_blank">Reducing Tailscale’s binary size on macOS (2023)</a> (<a href="https://news.ycombinator.com/item?id=34833387" target="_blank">HN</a>)</li>
+<li><a href="https://notes.alinpanaitiu.com/Making%20macOS%20apps%20uninstallable" target="_blank">Making macOS Apps Uninstallable</a> (<a href="https://news.ycombinator.com/item?id=34841742" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/LinusU/node-appdmg" target="_blank">node-appdmg</a> - Generate beautiful DMG-images for your macOS applications.</li>
+<li><a href="https://github.com/HamburgChimps/apple-notes-liberator" target="_blank">Apple Notes Liberator</a> - Extract Notes.app Data and Save It as JSON. (<a href="https://news.ycombinator.com/item?id=35316679" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/dogsheep/apple-notes-to-sqlite" target="_blank">Export Apple Notes to SQLite</a></li>
+<li><a href="https://cabel.com/2023/03/27/apple-passwords-deserve-an-app/" target="_blank">Apple passwords deserve an app (2023)</a> (<a href="https://news.ycombinator.com/item?id=35329950" target="_blank">HN</a>)</li>
+<li><a href="https://github.com/glyph/Encrust" target="_blank">Encrust</a> - Automate all the steps to add the flavorful, savory crust that macOS applications written in Python require to launch.</li>
+<li><a href="https://www.wezm.net/v2/posts/2023/rust-classic-mac-os-app/" target="_blank">Building a Classic Mac OS App in Rust (2023)</a></li>
+<li><a href="https://github.com/MacPaw/PermissionsKit" target="_blank">PermissionsKit</a> - Convenience wrapper on macOS permissions API, including Mojave Full Disk Access.</li>
+<li><a href="https://www.reddit.com/r/macapps/comments/12tm7f7/which_apps_are_worth_every_penny_and_you_cant/" target="_blank">Which mac apps are worth every penny and you can&rsquo;t live without? (2023)</a></li>
+<li><a href="https://github.com/AvdLee/WhatTheErrorCode" target="_blank">What is The Error Code</a> - Convert unreadable errors into understandable descriptions.</li>
+<li><a href="https://github.com/Macjutsu/super" target="_blank">Superman</a> - Optimizes the macOS software update experience.</li>
+<li><a href="https://www.reddit.com/r/macapps/comments/13klofi/software_developer_mac_apps/" target="_blank">Software Developer Mac Apps (2023)</a></li>
+</ul>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+<style>
+            #R-logo svg,
+            #R-logo svg * {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              fill: #282828 !important;
+              fill: var(--MENU-SECTIONS-BG-color) !important;
+              opacity: .945;
+            }
+            a#R-logo {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              font-family: 'Work Sans', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+              font-size: 1.875rem;
+              font-weight: 300;
+              margin-top: -.8125rem;
+              max-width: 60%;
+              text-transform: uppercase;
+              width: 14.125rem;
+              white-space: nowrap;
+            }
+            a#R-logo:hover {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+            }
+            #R-logo svg {
+              margin-bottom: -1.25rem;
+              margin-inline-start: -1.47rem;
+              margin-inline-end: .5rem;
+              width: 40.5%;
+            }
+            @media only all and (max-width: 59.999rem) {
+              a#R-logo {
+                font-size: 1.5625rem;
+                margin-top: -.1875rem;
+              }
+              #R-logo svg {
+                margin-bottom: -.75rem;
+                margin-inline-start: -1.47rem;
+                margin-inline-end: .5rem;
+              }
+            }
+            @media all and (-ms-high-contrast:none) {
+              /* IE11s understanding of positioning is weird at best */
+              a#R-logo {
+                margin-top: -3.625rem;
+              }
+              #R-logo svg {
+                margin-bottom: -3.875rem;
+                margin-left: -1.47rem;
+                margin-right: .5rem;
+              }
+            }
+            @media only all and (-ms-high-contrast:none) and (max-width: 59.999rem) {
+              #R-logo svg {
+                margin-left: -1.47rem;
+                margin-right: .5rem;
+              }
+            }
+          </style>
+
+          <a id="R-logo" href="../../../../index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.044 64.044">
+              <path d="M46.103 136.34c-.642-.394-1.222-2.242-1.98-2.358-.76-.117-1.353.506-1.618 1.519-.266 1.012-.446 4.188.173 5.538.213.435.482.787 1.03.845.547.057.967-.504 1.45-1.027.482-.523.437-.9 1.142-.612.705.289 1.051.4 1.586 1.229.535.828 1.085 4.043.868 5.598-.241 1.458-.531 2.8-.59 4.088.26.075.517.148.772.217 2.68.724 5.373 1.037 7.873.02.001-.028.01-.105.008-.11-.048-.165-.18-.41-.36-.698-.18-.29-.414-.645-.586-1.114a3.212 3.212 0 0 1-.125-1.735c.056-.21.153-.342.249-.475 1.237-1.193 2.932-1.373 4.244-1.384.557-.004 1.389.016 2.198.255.809.239 1.706.724 2.068 1.843.187.578.114 1.17-.043 1.623-.153.438-.369.783-.545 1.091-.178.31-.329.6-.401.821-.007.02-.003.071-.005.094 2.256 1.008 4.716.91 7.189.398.55-.114 1.11-.247 1.673-.377.344-1.085.678-2.145.852-3.208.124-.752.158-2.311-.078-3.538-.118-.613-.306-1.15-.52-1.489-.221-.349-.413-.501-.747-.538-.243-.027-.51.013-.796.098-.67.223-1.33.606-1.966.76l-.008.002-.109.032c-.556.152-1.233.158-1.797-.36-.556-.51-.89-1.367-1.117-2.596-.283-1.528-.075-3.279.89-4.518l.071-.09h.07c.65-.71 1.485-.802 2.16-.599.706.213 1.333.629 1.772.84.736.354 1.185.319 1.475.171.291-.148.5-.439.668-.955.332-1.017.301-2.819.022-4.106-.148-.684-.13-1.292-.13-1.883-1.558-.463-3.067-.982-4.574-1.208-1.128-.169-2.263-.173-3.298.164-.13.046-.256.095-.38.15-.373.164-.633.342-.805.52-.077.098-.081.105-.087.21-.004.068.031.289.13.571.1.282.256.634.467 1.03.279.524.448 1.063.431 1.618a2.12 2.12 0 0 1-.499 1.309 1.757 1.757 0 0 1-.62.51h-.002c-.515.291-1.107.404-1.723.464-.86.083-1.787.026-2.598-.097-.806-.123-1.47-.28-1.948-.555-.444-.256-.79-.547-1.037-.925a2.273 2.273 0 0 1-.356-1.301c.029-.837.403-1.437.625-1.897.111-.23.191-.433.236-.583.045-.15.044-.25.046-.24-.005-.029-.127-.355-1.015-.741-1.138-.495-2.322-.673-3.533-.668h-.015a9.711 9.711 0 0 0-.521.016h-.002c-1.163.057-2.35.308-3.541.569.383 1.531.79 2.753.818 4.502-.096 1.297.158 2.114-1.03 2.935-.85.588-1.508.729-2.15.335" style="fill:#282828;fill-opacity:1;stroke:none;stroke-width:1.03763;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="translate(-40.698 -95.175)"/>
+              <path d="M61.472 101.34v.002c-.3-.003-.603.01-.894.04-.544.055-1.39.165-1.778.306-1.238.364.13 2.344.41 2.913.28.569.285 2.03.14 2.134-.144.103-.375.261-.934.345-.56.084.03-.037-1.589.086-1.62.122-5.506.29-8.265.248-.022.26-.036.521-.097.808-.309 1.442-.63 3.163-.494 4.074.071.473.168.65.414.8.23.14.737.235 1.62-.004.834-.227 1.3-.442 1.887-.456.595-.016 1.555.472 1.965.717.411.245-.03-.008.002 0s.128.05.176.102c.049.053-.276-.523.104.199.379.721.72 3.256.002 4.68-.46.913-1.01 1.49-1.64 1.711-.63.22-1.229.067-1.734-.135-.881-.353-1.584-.7-2.205-.647-1.199 1.94-1.186 4.17-.6 6.602.097.397.212.814.327 1.23 2.68-.556 5.542-1.016 8.337.132 1.064.437 1.73 1.015 1.902 1.857.169.831-.193 1.508-.438 1.986-.122.238-.23.46-.307.642-.07.164-.096.28-.104.324.069.429.309.723.686.945.385.227.89.355 1.35.423.723.104 1.567.152 2.287.086.693-.064 1.032-.338 1.241-.544a2.447 2.447 0 0 0 .303-.437.175.175 0 0 0 .013-.035c-.004-.066-.037-.246-.195-.527-.46-.816-.87-1.595-.817-2.51.028-.476.218-.938.529-1.288.304-.343.698-.586 1.186-.79 1.442-.606 2.96-.609 4.372-.409 1.525.216 2.963.679 4.378 1.083.226-2.09.784-3.9.592-5.77-.058-.565-.287-1.333-.598-1.827-.32-.508-.59-.717-1.036-.642-.648.11-1.472.935-2.707 1.078-.791.092-1.494-.267-1.95-.86-.45-.583-.678-1.335-.78-2.101-.202-1.525.031-3.229.89-4.27.615-.747 1.45-.887 2.15-.74.687.145 1.307.492 1.857.745v-.002c.546.252 1.033.388 1.281.344a.547.547 0 0 0 .353-.188c.113-.124.242-.35.384-.75.604-1.712.206-3.68-.303-5.654-.667.145-1.336.293-2.018.413-1.341.236-2.73.392-4.136.273-.656-.055-1.695-.085-2.58-.476-.442-.195-.903-.514-1.157-1.093-.259-.591-.205-1.313.08-2.014.223-.64 1.082-2.178.692-2.585-.391-.407-1.651-.56-2.554-.571z" style="fill:#282828;fill-opacity:1;stroke:none;stroke-width:.992837;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="translate(-40.698 -95.175)"/>
+              <path d="M83.128 98.116c-.484 1.875-1.057 3.757-2.486 5.033-.638.57-1.13.666-1.483.548-.401-.134-.715-.506-1.058-.973-.338-.461-.655-.97-1.076-1.332-.192-.165-.404-.315-.683-.38-.279-.066-.599-.02-.9.102-.489.196-.89.58-1.28 1.047a6.1 6.1 0 0 0-.985 1.632c-.234.591-.356 1.174-.277 1.713.072.487.392.977.905 1.185.463.187.926.156 1.36.154.433 0 .843.01 1.242.147.55.189.79.736.822 1.368.034.66-.145 1.412-.393 1.988l-.008.021c-.74 1.705-1.946 2.893-3.004 4.349l-.664.915.979.099c.924.092 1.788.26 2.468.675.46.281 1.806 1.205 2.794 2.222.497.513.888 1.031 1.047 1.502.078.231.095.422.05.6a.93.93 0 0 1-.345.474c-.301.223-.606.395-.864.532l-.354.186c-.107.058-.189.087-.345.228a.637.637 0 0 1 .062-.045l-.064.041-.209.236-.103.343s.003.126.007.152c.003.017.003.007.004.015v.002c.016.195.061.307.133.476a4.1 4.1 0 0 0 .32.596 5.7 5.7 0 0 0 2.8 2.258c.284.108.908.321 1.548.36.33.02.59.015.912-.13h.002c.08-.037.228-.095.382-.281.153-.186.19-.355.212-.445l.019-.075.003-.078c.023-.585-.037-1.296.072-1.899.153-.657.435-.956 1.009-.909 2.771.239 4.74 1.955 6.693 3.83l.742.714.279-1.155c.55-2.29 1.093-4.464 2.928-5.977.692-.57 1.184-.642 1.527-.509.39.151.676.536.996.995.319.458.605.926 1.07 1.212.194.119.464.232.784.209.32-.024.638-.163.988-.384 1.022-.645 1.778-1.756 2.086-2.942.136-.522.102-.991-.046-1.301-.158-.334-.433-.553-.754-.707-.653-.314-1.468-.373-2.094-.486-.825-.15-1.22-.475-1.345-.878-.13-.417 0-.953.335-1.61.6-1.173 1.887-2.602 3.13-3.911l.498-.526-.449-.432c-1.545-1.49-3.163-3.01-5.252-3.715h-.002c-.473-.16-1.097-.413-1.73-.424h-.003c-.311-.004-.596.04-.883.24v.002c-.22.155-.483.537-.583.937l-.008.036-.006.038c-.116.773-.06 1.467-.217 1.995-.063.212-.198.418-.359.507-.202.111-.492.153-.976.072-.582-.097-1.978-.69-3.021-1.503-.523-.407-.934-.85-1.117-1.3a1.153 1.153 0 0 1-.083-.63c.03-.184.1-.477.308-.593.21-.116.941-.32 1.377-.642h.002c.192-.141.403-.367.518-.64.114-.275.127-.526.123-.774-.006-.142-.036-.192-.08-.3a8.417 8.417 0 0 0-3-3.027c-1.226-.725-2.585-1.135-3.927-1.539-.434-.12-.844-.111-1.02.466zm.912.947c1.186.364 2.357.718 3.345 1.303 1.035.612 1.864 1.488 2.507 2.528-.514.263-1.095.5-1.44.79-.345.29-.729.914-.815 1.434-.084.509 0 .968.155 1.347.301.74.85 1.276 1.44 1.735 1.18.92 2.554 1.545 3.47 1.698.604.1 1.186.088 1.739-.216.594-.327.935-.911 1.088-1.427.264-.884.193-1.664.262-2.17h.1c.3.006.926.206 1.417.371 1.646.554 3.044 1.773 4.431 3.089-1.102 1.174-2.222 2.423-2.888 3.73-.42.823-.73 1.789-.453 2.687.283.913 1.1 1.415 2.138 1.603.691.126 1.472.226 1.84.403.19.091.258.182.278.223.03.064.058.075-.023.387-.21.804-.761 1.598-1.413 2.01-.247.155-.365.183-.407.187-.042.003-.061.002-.172-.066-.144-.088-.455-.473-.772-.929-.317-.454-.714-1.07-1.452-1.356-.783-.304-1.776-.022-2.713.75-1.942 1.6-2.626 3.764-3.146 5.8-1.802-1.676-3.772-3.138-6.589-3.517h-.002c-.346-.095-1.013-.031-1.293.143-.735.501-1.005 1.132-1.168 2.007-.125.69-.082 1.216-.074 1.659-.055.006-.046.01-.104.006-.42-.026-1.035-.215-1.244-.295-.947-.361-1.774-1.006-2.314-1.857-.054-.085-.072-.132-.109-.2l.027-.016c.284-.15.656-.36 1.045-.648.44-.327.789-.798.93-1.35a2.4 2.4 0 0 0-.068-1.379c-.254-.751-.753-1.353-1.295-1.911-1.09-1.124-2.452-2.049-2.99-2.378-.609-.372-1.303-.44-1.981-.56.875-1.094 1.878-2.251 2.596-3.921.294-.823.543-1.907.513-2.658-.049-.97-.489-2.013-1.52-2.367-.579-.2-1.131-.204-1.58-.203-.45.002-.786-.006-.97-.08h-.002c-.264-.107-.236-.108-.268-.33-.025-.17.021-.553.183-.962a4.67 4.67 0 0 1 .725-1.192c.29-.348.617-.59.705-.626.142-.057.176-.05.22-.04.045.011.127.052.263.17.235.201.56.671.92 1.161.354.484.791 1.08 1.543 1.33.8.267 1.784-.052 2.671-.846 1.594-1.424 2.235-3.317 2.714-5.051zm11.705 7.023c-.02.014.042-.002.042 0l-.008.035c.05-.2-.028-.04-.034-.035zM79.472 122.45a.198.198 0 0 1 .005.023v.014c-.002-.01-.003-.03-.005-.037zm-.29.732-.006.01-.044.027c.016-.01.033-.024.05-.036z" style="color:#000;fill:#282828;stroke-width:1.02352;-inkscape-stroke:none" transform="translate(-40.698 -95.175)"/>
+              <path d="M76.694 128.845c-.85-.012-1.668.253-2.434.67-.01.592-.015 1.17.109 1.772.323 1.573.422 3.553-.07 5.147-.247.804-.684 1.535-1.347 1.891-.663.356-1.467.296-2.362-.159-.522-.266-1.059-.62-1.487-.757-.223-.072-.392-.096-.522-.069-.13.027-.232.094-.362.27-.53.719-.681 1.823-.497 2.876.177 1.012.418 1.438.543 1.56.143.137.26.154.604.055.548-.158 1.523-.857 2.573-.972l.02-.002.5.058c.686.081 1.247.562 1.622 1.19.372.62.591 1.37.73 2.136.279 1.532.25 3.16.083 4.232-.14.91-.394 1.72-.632 2.53 1.719-.385 3.485-.692 5.307-.36 1.174.214 2.749.574 3.762 1.977l.088.122.046.159c.162.551.16 1.114.024 1.578-.13.45-.348.772-.533 1.023-.181.246-.336.444-.437.606-.102.16-.141.275-.145.336-.01.17 0 .197.07.315.057.1.186.242.39.366.408.246 1.106.414 1.843.45a7.842 7.842 0 0 0 2.174-.21 4.28 4.28 0 0 0 .822-.296c.218-.106.385-.242.377-.233l.029-.031c.025-.035.05-.072.05-.068 0-.004 0-.017-.003-.05a2.733 2.733 0 0 0-.21-.579c-.26-.548-.839-1.333-.822-2.46.01-.657.27-1.21.598-1.576.32-.357.696-.575 1.074-.736.759-.323 1.57-.418 2.054-.458 1.653-.136 3.252.296 4.755.765.457.142.905.29 1.352.434.325-2.258.902-4.247.598-6.217-.071-.46-.25-1.169-.486-1.684-.238-.518-.495-.762-.675-.779-.351-.032-.716.14-1.174.418-.457.277-1.005.665-1.695.742-.745.082-1.406-.291-1.84-.908-.428-.608-.653-1.394-.754-2.196-.203-1.596.016-3.377.794-4.493.568-.813 1.358-.984 2.024-.835.65.146 1.243.51 1.769.779.524.267.99.413 1.237.365a.527.527 0 0 0 .346-.2c.11-.132.235-.373.37-.798.612-1.918.27-3.894-.246-6.054-2.815-.851-5.49-1.534-8.089-.267a.727.727 0 0 0-.223.148c-.024.028-.018.021-.026.056.001-.003-.01.178.07.44.162.522.611 1.29.911 1.978l.004.009.029.063.024.084V133c.162.635.016 1.297-.274 1.727-.272.404-.618.636-.952.81-.675.353-1.399.484-1.724.533a5.888 5.888 0 0 1-3.973-.795c-.512-.311-.876-.594-1.133-1.02-.282-.466-.318-1.084-.172-1.557.252-.814.715-1.266.971-1.89a.663.663 0 0 0 .047-.14c.001-.013 0-.006-.007-.037a.761.761 0 0 0-.184-.268c-.264-.267-.865-.595-1.54-.826-1.356-.462-3.07-.659-3.583-.686-.062-.002-.121-.006-.178-.006z" style="fill:#282828;fill-opacity:1;stroke:none;stroke-width:.991342;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="translate(-40.698 -95.175)"/>
+            </svg>GeekDocs
+          </a>
+        </div>
+        <div class="searchbox default-animation">
+          <i class="fas fa-search" title="Search (CTRL+ALT+f)"></i>
+          <label class="a11y-only" for="search-by">Search</label>
+          <input data-search-input id="search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="../../../../js/auto-complete.js?1702839818" defer></script>
+        <script src="../../../../js/lunr/lunr.min.js?1702839818" defer></script>
+        <script src="../../../../js/lunr/lunr.stemmer.support.min.js?1702839818" defer></script>
+        <script src="../../../../js/lunr/lunr.multi.min.js?1702839818" defer></script>
+        <script src="../../../../js/lunr/lunr.en.min.js?1702839818" defer></script>
+        <script src="../../../../js/search.js?1702839818" defer></script>
+      </div>
+      <div id="homelinks" class="default-animation">
+        <ul>
+          <li><a class="padding" href="../../../../index.html"><i class="fas fa-home"></i> Home</a></li>
+        </ul>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics enlarge morespace">
+          <li data-nav-id="/tech/index.html" class="parent "><a class="padding" href="../../../../tech/index.html">Tech Stuff</a><ul id="subsections-43fa384ae01ca11365a601e3cd261ecf" class="morespace">
+          <li data-nav-id="/tech/macos/apps/macos-apps/index.html" class="active"><a class="padding" href="../../../../tech/macos/apps/macos-apps/index.html"></a></li>
+          <li data-nav-id="/tech/macos/apps/1password/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/1password/index.html">1Password</a></li>
+          <li data-nav-id="/tech/macos/apps/2do/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/2do/index.html">2Do</a></li>
+          <li data-nav-id="/tech/macos/apps/affinity-designer/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/affinity-designer/index.html">Affinity Designer</a></li>
+          <li data-nav-id="/tech/macos/apps/alfred/alfred/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/alfred/alfred/index.html">Alfred</a></li>
+          <li data-nav-id="/tech/macos/applescript/index.html" class=""><a class="padding" href="../../../../tech/macos/applescript/index.html">AppleScript</a></li>
+          <li data-nav-id="/tech/macos/apps/alfred/awgo/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/alfred/awgo/index.html">AwGo</a></li>
+          <li data-nav-id="/tech/macos/apps/bettertouchtool/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/bettertouchtool/index.html">BetterTouchTool</a></li>
+          <li data-nav-id="/tech/macos/apps/contacts/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/contacts/index.html">Contacts</a></li>
+          <li data-nav-id="/tech/macos/apps/fantastical/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/fantastical/index.html">Fantastical</a></li>
+          <li data-nav-id="/tech/macos/apps/hammerspoon/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/hammerspoon/index.html">Hammerspoon</a></li>
+          <li data-nav-id="/tech/macos/apps/hazel/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/hazel/index.html">Hazel</a></li>
+          <li data-nav-id="/tech/macos/apps/iterm/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/iterm/index.html">iTerm</a></li>
+          <li data-nav-id="/tech/macos/jxa/index.html" class=""><a class="padding" href="../../../../tech/macos/jxa/index.html">JavaScript for Automation</a></li>
+          <li data-nav-id="/tech/macos/apps/karabiner/karabiner/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/karabiner/karabiner/index.html">Karabiner</a></li>
+          <li data-nav-id="/tech/macos/apps/keyboard-maestro/keyboard-maestro/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/keyboard-maestro/keyboard-maestro/index.html">Keyboard Maestro</a></li>
+          <li data-nav-id="/tech/macos/apps/keychain/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/keychain/index.html">Keychain</a></li>
+          <li data-nav-id="/tech/macos/apps/little-snitch/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/little-snitch/index.html">Little Snitch</a></li>
+          <li data-nav-id="/tech/macos/apps/mindnode/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/mindnode/index.html">MindNode</a></li>
+          <li data-nav-id="/tech/macos/apps/pixave/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/pixave/index.html">Pixave</a></li>
+          <li data-nav-id="/tech/macos/apps/scriptkit/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/scriptkit/index.html">ScriptKit</a></li>
+          <li data-nav-id="/tech/macos/apps/sketch/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/sketch/index.html">Sketch</a></li>
+          <li data-nav-id="/tech/macos/apps/textual/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/textual/index.html">Textual</a></li>
+          <li data-nav-id="/tech/macos/apps/timing/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/timing/index.html">Timing</a></li>
+          <li data-nav-id="/tech/macos/apps/trello/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/trello/index.html">Trello</a></li>
+          <li data-nav-id="/tech/macos/apps/tweetbot/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/tweetbot/index.html">Tweetbot</a></li>
+          <li data-nav-id="/tech/macos/apps/typinator/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/typinator/index.html">Typinator</a></li>
+          <li data-nav-id="/tech/macos/apps/xcode/xcode/index.html" class=""><a class="padding" href="../../../../tech/macos/apps/xcode/xcode/index.html">Xcode</a></li></ul></li>
+          <li data-nav-id="/music/index.html" class=""><a class="padding" href="../../../../music/index.html">Music</a><ul id="subsections-fccd776c7aa6cb1b9715efc70958ffc3" class="morespace">
+          <li data-nav-id="/music/production/index.html" class=""><a class="padding" href="../../../../music/production/index.html">Music Production</a></li></ul></li>
+          <li data-nav-id="/podcasts/index.html" class=""><a class="padding" href="../../../../podcasts/index.html">Podcasts</a></li>
+          <li data-nav-id="/travel/index.html" class=""><a class="padding" href="../../../../travel/index.html">Travel</a></li>
+          <li data-nav-id="/geocaching/index.html" class=""><a class="padding" href="../../../../geocaching/index.html">Geocaching</a></li>
+          <li data-nav-id="/house/index.html" class=""><a class="padding" href="../../../../house/index.html">House</a></li>
+          <li data-nav-id="/fitness/index.html" class=""><a class="padding" href="../../../../fitness/index.html">Fitness</a></li>
+          <li data-nav-id="/stufftowatch/index.html" class=""><a class="padding" href="../../../../stufftowatch/index.html">StuffToWatch</a></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title padding">More</div>
+          <ul class="space">
+            <li><a class="padding" href="https://github.com/McShelby/hugo-theme-relearn"><i class='fab fa-fw fa-github'></i> GitHub repo</a></li>
+            <li><a class="padding" href="https://gohugo.io/"><i class='fas fa-fw fa-bookmark'></i> Hugo Documentation</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <div class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <label class="a11y-only" for="select-language">Language</label>
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </div>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch">
+              <div class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <label class="a11y-only" for="select-variant">Theme</label>
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="auto" value="auto" selected>Auto</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </div>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><button class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i><span>&nbsp;</span>Clear History</button></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+        </div>
+      </div>
+    </aside>
+    <script src="../../../../js/clipboard.min.js?1702839818" defer></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1702839818" defer></script>
+    <script src="../../../../js/theme.js?1702839818" defer></script>
+  </body>
+</html>
