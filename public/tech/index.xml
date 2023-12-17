@@ -11,9 +11,7 @@
       <link>http://example.org/tech/macos/apps/1password/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/tech/macos/apps/1password/index.html</guid>
-      <description>1Password Generate all of my passwords with it and keep everything in a secured and encrypted vault kept secure by my one master password.
-No longer need to remember passwords and I now have a unique password for every website that I am signed up on whilst activating two factor authentication wherever possible.
-Links 1Password for Open Source Projects - Get a free 1Password Teams membership for your open source project.</description>
+      <description>1Password Links 1Password for Open Source Projects - Get a free 1Password Teams membership for your open source project. (Tweet) Ask HN: How do you share password simply and securely? (2020) 1pass - Caching wrapper for the 1Passworld CLI. Terraform provider for 1Password 1Password GitHub Action - Import logins, passwords and documents from your 1Password vaults to use in your GitHub Action workflows. go-password - Go library for generating high-entropy random passwords similar to 1Password.</description>
     </item>
     <item>
       <title>2Do</title>
@@ -27,13 +25,6 @@ It also has global quick add with a hotkey. Together with lists, priorities, pow
 I use 2Do only for personal tasks. Team &amp;amp; project tasks are done on GitHub.</description>
     </item>
     <item>
-      <title>Affinity Designer</title>
-      <link>http://example.org/tech/macos/apps/affinity-designer/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tech/macos/apps/affinity-designer/index.html</guid>
-      <description>Affinity Designer Links Affinity Designer Video Tutorials Affinity Designer: A Love Story (HN) </description>
-    </item>
-    <item>
       <title>Alfred</title>
       <link>http://example.org/tech/macos/apps/alfred/alfred/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -42,13 +33,6 @@ I use 2Do only for personal tasks. Team &amp;amp; project tasks are done on GitH
 It has a great community and amazing workflows that you can use.
 I wrote an article on how anyone can start developing workflows of their own using Go language and AwGo library.
 Raycast &amp;amp; Script Kit are nice alternatives.</description>
-    </item>
-    <item>
-      <title>AppleScript</title>
-      <link>http://example.org/tech/macos/applescript/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tech/macos/applescript/index.html</guid>
-      <description>AppleScript Notes You can drop an application on Apple&amp;rsquo;s Script Editor.app to find out if it is scriptable. Code -- Scrape all URLs from all tabs in all windows -- https://forum.keyboardmaestro.com/t/save-and-restore-safari-session-tabs/15036/4 set AppleScript&amp;#39;s text item delimiters to linefeed tell application &amp;#34;Safari&amp;#34; set urlList to (URL of tabs of windows) as text end tell return urlList -- Expand Typinator abbreviation tell application &amp;#34;Typinator&amp;#34; expand string &amp;#34;dd&amp;#34; end tell -- Print URL of current tab tell app &amp;#34;safari&amp;#34; to url of document 1 -- Show source of current document tell app &amp;#34;safari&amp;#34; to source of document 1 -- Activate menu bar of an app -- Accepts a list of form: `{&amp;#34;Finder&amp;#34;, &amp;#34;View&amp;#34;, &amp;#34;Arrange By&amp;#34;, &amp;#34;Date&amp;#34;}` -- Execute the specified menu item.</description>
     </item>
     <item>
       <title>AwGo</title>
@@ -157,47 +141,11 @@ Notes It is always better to run compiled AppleScripts. Assert action. &amp;ldqu
       <description>Little Snitch Links Keyboard shortcuts Rule groups for Little Snitch based on unified host list to block ads, malware, fake news and porn </description>
     </item>
     <item>
-      <title>MindNode</title>
-      <link>http://example.org/tech/macos/apps/mindnode/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tech/macos/apps/mindnode/index.html</guid>
-      <description>MindNode An application which allowed me to originally create all of the maps for Learn Anything.
-I visualize topics and their relations as an interactive mind map.
-More recently I am using Excalidraw &amp;amp; Obsidian for making mind maps.
-At some point, I used MindNode as a way to break down problems into smaller parts.
-Notes ⌥ + delete will delete currently selected node only unlike delete which will delete the entire branch.</description>
-    </item>
-    <item>
-      <title>Pixave</title>
-      <link>http://example.org/tech/macos/apps/pixave/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tech/macos/apps/pixave/index.html</guid>
-      <description>Pixave I once used Pixave as my personal image library. Here is how my library looked:
-I am moving the library to Apple Photos with everything sorted with folders.</description>
-    </item>
-    <item>
-      <title>ScriptKit</title>
-      <link>http://example.org/tech/macos/apps/scriptkit/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tech/macos/apps/scriptkit/index.html</guid>
-      <description>Script Kit Notes console.log() will display in both the app and the log. log() will only display in the log Links Call into ScriptKit directly with Karabiner Script Kit Guide </description>
-    </item>
-    <item>
       <title>Sketch</title>
       <link>http://example.org/tech/macos/apps/sketch/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/tech/macos/apps/sketch/index.html</guid>
       <description>Sketch Plugins Midnight - Dark UI for Sketch. File Cleaner - Keeps your Sketch files immaculately clean and in order. Links Why you should care about keeping your design files clean (2018) How to build your first Sketch plugin (2019) Sketch Elements - Free iOS UI kit, brought to you by Sketch. Automate Sketch - Make your workflow more efficient. story2sketch - Convert Storybook stories into Sketch symbols. Sketch Real-time collaboration macOS UI Kit for Sketch - Incredibly detailed and most accurate macOS UI Kit for Sketch.</description>
-    </item>
-    <item>
-      <title>Textual</title>
-      <link>http://example.org/tech/macos/apps/textual/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tech/macos/apps/textual/index.html</guid>
-      <description>Textual I like IRC even though Discord is a strictly superior experience. I currently use Matrix and Element client to connect to IRC Freenode channels I care about.
-In Textual, when I did use it, I used Geeza Pro Regular 18pt font &amp;amp; built in Tomorrow Night (Eighties) theme.
-Textual has great channel search feature.
-One day I hope someone makes a solid macOS native client for Matrix that has all the features and speed of Textual.</description>
     </item>
     <item>
       <title>Timing</title>
@@ -208,33 +156,6 @@ One day I hope someone makes a solid macOS native client for Matrix that has all
 I setup projects in Timing with rules assigned for each project. I then had Timing infer time I spent on these projects automatically based on the rules.
 No longer use any tracking apps as part of my minimization of tools I use.
 Notes Can press ⌥ + → in Review tab to expand all items fully (assuming I selected the items I want to expand).</description>
-    </item>
-    <item>
-      <title>Trello</title>
-      <link>http://example.org/tech/macos/apps/trello/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tech/macos/apps/trello/index.html</guid>
-      <description>Trello I once used it to manage projects before Notion came along.
-I like that you can assign yourself to the cards you are working on now and filter to see only assigned cards by pressing Q key. I also marked cards I want to work on next with Next tag.
-Notes You can attach link to card by simply selecting card and pressing ⌘ + V. You can also add a link as a new card itself by simply ⌘ + Ving in the new card area.</description>
-    </item>
-    <item>
-      <title>Tweetbot</title>
-      <link>http://example.org/tech/macos/apps/tweetbot/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tech/macos/apps/tweetbot/index.html</guid>
-      <description>Tweetbot I once used the app to stay up to date and communicate on Twitter.
-I split the app into 2 columns on mac.
-First column: Mentions / Messages / Other Second column: Timeline. Tweets with highest value to me. I now use the official Twitter app on iOS and Twitter web on macOS.
-Notes There is a limit of 1600 tweets that can be shown in Timeline or list. More than that will not be shown and tweets will be lost from the feed.</description>
-    </item>
-    <item>
-      <title>Typinator</title>
-      <link>http://example.org/tech/macos/apps/typinator/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tech/macos/apps/typinator/index.html</guid>
-      <description>Typinator Used the app previously to automate text expansions. Now use Alfred (simple expansions) &amp;amp; Keyboard Maestro (complex) instead.
-Notes You can press ⌥ + ⌫ to delete snippet without dialogue box. Links Write once, never write again - Detailed article on how I effectively use Typinator together with Keyboard Maestro to automate big parts of my writing process. Fantastical natural input + Text expansions - How to use Typinator to quickly expand natural language date times in Fantastical app.</description>
     </item>
     <item>
       <title>Xcode</title>

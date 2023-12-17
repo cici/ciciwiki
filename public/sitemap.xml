@@ -28,13 +28,7 @@
     <loc>http://example.org/tech/macos/apps/2do/index.html</loc>
   </url>
   <url>
-    <loc>http://example.org/tech/macos/apps/affinity-designer/index.html</loc>
-  </url>
-  <url>
     <loc>http://example.org/tech/macos/apps/alfred/alfred/index.html</loc>
-  </url>
-  <url>
-    <loc>http://example.org/tech/macos/applescript/index.html</loc>
   </url>
   <url>
     <loc>http://example.org/tech/macos/apps/alfred/awgo/index.html</loc>
@@ -82,15 +76,6 @@
     <loc>http://example.org/tech/macos/apps/little-snitch/index.html</loc>
   </url>
   <url>
-    <loc>http://example.org/tech/macos/apps/mindnode/index.html</loc>
-  </url>
-  <url>
-    <loc>http://example.org/tech/macos/apps/pixave/index.html</loc>
-  </url>
-  <url>
-    <loc>http://example.org/tech/macos/apps/scriptkit/index.html</loc>
-  </url>
-  <url>
     <loc>http://example.org/tech/macos/apps/sketch/index.html</loc>
   </url>
   <url>
@@ -100,19 +85,7 @@
     <loc>http://example.org/tags/index.html</loc>
   </url>
   <url>
-    <loc>http://example.org/tech/macos/apps/textual/index.html</loc>
-  </url>
-  <url>
     <loc>http://example.org/tech/macos/apps/timing/index.html</loc>
-  </url>
-  <url>
-    <loc>http://example.org/tech/macos/apps/trello/index.html</loc>
-  </url>
-  <url>
-    <loc>http://example.org/tech/macos/apps/tweetbot/index.html</loc>
-  </url>
-  <url>
-    <loc>http://example.org/tech/macos/apps/typinator/index.html</loc>
   </url>
   <url>
     <loc>http://example.org/tech/macos/apps/xcode/xcode/index.html</loc>

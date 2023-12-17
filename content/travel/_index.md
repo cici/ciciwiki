@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Travel"
-weight = 3
+weight = 5
 +++
 
 [Roam Around](https://www.roamaround.io/) is neat way to get quick travel plans.
